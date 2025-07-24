@@ -16,7 +16,634 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/mop/blog/";
           },
-        },{id: "news-a-simple-inline-announcement",
+        },{id: "post-mopss-19th-july-2025",
+        
+          title: "MOPSS, 19th July 2025",
+        
+        description: "MOPSS Problems, Walkthroughs, Solutions from 19th July 2025",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/MOPSS25July19/";
+          
+        },
+      },{id: "post-mopss-5th-july-2025",
+        
+          title: "MOPSS, 5th July 2025",
+        
+        description: "MOPSS Problems, Walkthroughs, Solutions from 5th July 2025",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/MOPSS25July5/";
+          
+        },
+      },{id: "post-orders",
+        
+          title: "Orders",
+        
+        description: "Orders",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/Orders/";
+          
+        },
+      },{id: "post-gauss-39-s-lemma",
+        
+          title: "Gauss&#39;s lemma",
+        
+        description: "Gauss&#39;s lemma",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/Gauss/";
+          
+        },
+      },{id: "post-chinese-remainder-theorem",
+        
+          title: "Chinese remainder theorem",
+        
+        description: "Chinese remainder theorem",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/CRT/";
+          
+        },
+      },{id: "post-primes-divisors-and-congruences",
+        
+          title: "Primes, divisors and congruences",
+        
+        description: "Primes, divisors and congruences",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/Cong/";
+          
+        },
+      },{id: "post-system-of-equations",
+        
+          title: "System of equations",
+        
+        description: "System of Equations",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/SysEqnNT/";
+          
+        },
+      },{id: "post-binomial-coefficients",
+        
+          title: "Binomial coefficients",
+        
+        description: "Binomial coefficients",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/BinCo/";
+          
+        },
+      },{id: "post-quadratic-polynomials",
+        
+          title: "Quadratic polynomials",
+        
+        description: "Quadratic polynomials",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/Quad/";
+          
+        },
+      },{id: "post-using-identities",
+        
+          title: "Using identities",
+        
+        description: "Using identities",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/Iden/";
+          
+        },
+      },{id: "post-induction",
+        
+          title: "Induction",
+        
+        description: "Induction",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/IndNT/";
+          
+        },
+      },{id: "post-cubic-polynomials",
+        
+          title: "Cubic polynomials",
+        
+        description: "Cubic polynomials",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/Cubic/";
+          
+        },
+      },{id: "post-telescoping",
+        
+          title: "Telescoping",
+        
+        description: "Telescoping",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/Tele/";
+          
+        },
+      },{id: "post-inequalities",
+        
+          title: "Inequalities",
+        
+        description: "Inequalities",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/Ineq/";
+          
+        },
+      },{id: "post-system-of-equations",
+        
+          title: "System of equations",
+        
+        description: "System of equations",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/SysEqn/";
+          
+        },
+      },{id: "post-integer-divisibility",
+        
+          title: "Integer divisibility",
+        
+        description: "Integer divisibility",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/IntDiv/";
+          
+        },
+      },{id: "post-lagrange-interpolation",
+        
+          title: "Lagrange interpolation",
+        
+        description: "Lagrange interpolation",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/LagrangeInt/";
+          
+        },
+      },{id: "post-crossing-the-x-axis",
+        
+          title: "Crossing the $$ x $$-axis",
+        
+        description: "Crossing the $$ x $$-axis, Intermediate value theorem",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/IMVT/";
+          
+        },
+      },{id: "post-roots-of-unity",
+        
+          title: "Roots of unity",
+        
+        description: "Roots of unity",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/RootsUnity/";
+          
+        },
+      },{id: "post-size-of-the-roots",
+        
+          title: "Size of the roots",
+        
+        description: "Size of the roots",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/RootSize/";
+          
+        },
+      },{id: "post-finite-differences",
+        
+          title: "Finite differences",
+        
+        description: "Finite differences",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/FiniteDiff/";
+          
+        },
+      },{id: "post-differentiation-and-multiple-roots",
+        
+          title: "Differentiation and multiple roots",
+        
+        description: "Differentiation and multiple roots",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/DiffMultRoot/";
+          
+        },
+      },{id: "post-viete-39-s-relations",
+        
+          title: "Viete&#39;s relations",
+        
+        description: "Viete&#39;s relations",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/Viete/";
+          
+        },
+      },{id: "post-generating-functions",
+        
+          title: "Generating functions",
+        
+        description: "Generating functions",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/GenFun/";
+          
+        },
+      },{id: "post-counting-in-two-different-ways",
+        
+          title: "Counting in two different ways",
+        
+        description: "Counting in two different ways",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/CountTwoDiff/";
+          
+        },
+      },{id: "post-counting-the-complement",
+        
+          title: "Counting the complement",
+        
+        description: "Counting the complement",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/CountComple/";
+          
+        },
+      },{id: "post-counting-via-bijections",
+        
+          title: "Counting via bijections",
+        
+        description: "Counting via bijections",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/CountBijec/";
+          
+        },
+      },{id: "post-counting",
+        
+          title: "Counting",
+        
+        description: "Counting",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/Count/";
+          
+        },
+      },{id: "post-grouping-in-pairs",
+        
+          title: "Grouping in pairs",
+        
+        description: "Grouping in pairs",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/GrpPairs/";
+          
+        },
+      },{id: "post-grouping-in-pairs",
+        
+          title: "Grouping in pairs",
+        
+        description: "Arrange in order",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/ArrangeInOrder/";
+          
+        },
+      },{id: "post-extremal-principle",
+        
+          title: "Extremal principle",
+        
+        description: "Extremal principle",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/Extremal/";
+          
+        },
+      },{id: "post-pigeonhole-principle",
+        
+          title: "Pigeonhole principle",
+        
+        description: "Pigeonhole principle",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/Pigeon/";
+          
+        },
+      },{id: "post-invariance",
+        
+          title: "Invariance",
+        
+        description: "Invariance principle",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/Invariance/";
+          
+        },
+      },{id: "post-inclusion-exclusion-principle",
+        
+          title: "Inclusion-exclusion principle",
+        
+        description: "Inclusion-exclusion principle",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/IncluExclu/";
+          
+        },
+      },{id: "post-induction",
+        
+          title: "Induction",
+        
+        description: "Induction",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/Induction/";
+          
+        },
+      },{id: "post-auxiliary-configuration",
+        
+          title: "Auxiliary configuration",
+        
+        description: "Auxiliary configuration in Combinatorics",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/AuxConfig/";
+          
+        },
+      },{id: "post-inmotc-2025-mp-region-algebra",
+        
+          title: "INMOTC 2025 (MP region), Algebra",
+        
+        description: "INMOTC 2025 (MP region), Algebra",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/INMOTC25MPalg/";
+          
+        },
+      },{id: "post-past-question-papers-of-pre-rmo-ioqm-rmo-inmo-egmotc-imotc",
+        
+          title: "Past Question Papers of Pre-RMO, IOQM, RMO, INMO, EGMOTC, IMOTC",
+        
+        description: "Previous Years&#39; Question Papers of Pre-RMO, IOQM, RMO, INMO, EGMOTC, IMOTC",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/PastPapers/";
+          
+        },
+      },{id: "post-rational-and-irrational-numbers",
+        
+          title: "Rational and irrational numbers",
+        
+        description: "Rational and irrational numbers",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/Rationals/";
+          
+        },
+      },{id: "post-arithmetic-progressions",
+        
+          title: "Arithmetic progressions",
+        
+        description: "Arithmetic progressions",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/AP/";
+          
+        },
+      },{id: "post-ioqm",
+        
+          title: "IOQM",
+        
+        description: "IOQM 2023 Discussion, Solutions, Answer key",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/IOQM/";
+          
+        },
+      },{id: "post-more-on-polynomials",
+        
+          title: "More on Polynomials",
+        
+        description: "More on Polynomials",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/MorePoly/";
+          
+        },
+      },{id: "post-binomial-theorem",
+        
+          title: "Binomial theorem",
+        
+        description: "Binomial theorem",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/Binomial/";
+          
+        },
+      },{id: "post-functional-equations",
+        
+          title: "Functional equations",
+        
+        description: "Functional equations",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/FuncEq/";
+          
+        },
+      },{id: "post-growth-of-polynomials",
+        
+          title: "Growth of Polynomials",
+        
+        description: "Growth of Polynomials",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/GrowthOfPoly/";
+          
+        },
+      },{id: "post-quartics",
+        
+          title: "Quartics",
+        
+        description: "Quartic polynomials",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/Quartic/";
+          
+        },
+      },{id: "post-cubic-polynomials",
+        
+          title: "Cubic polynomials",
+        
+        description: "Cubic polynomials",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/Cubic/";
+          
+        },
+      },{id: "post-quadratic-polynomials",
+        
+          title: "Quadratic polynomials",
+        
+        description: "Quadratic polynomials",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/Quadratic/";
+          
+        },
+      },{id: "post-polynomials",
+        
+          title: "Polynomials",
+        
+        description: "Polynomials",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/Polynomials/";
+          
+        },
+      },{id: "post-invariance-principle",
+        
+          title: "Invariance principle",
+        
+        description: "Invariance principle",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/Invariance/";
+          
+        },
+      },{id: "post-a-3-b-3-c-3-3abc",
+        
+          title: "$$ a^3+b^3+c^3 - 3abc $$",
+        
+        description: "$$ a^3+b^3+c^3 - 3abc $$",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/a3b3c3-3abc/";
+          
+        },
+      },{id: "post-warm-up",
+        
+          title: "Warm Up",
+        
+        description: "Warm up problems on Algebra",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/WarmUpAlg/";
+          
+        },
+      },{id: "post-problem-set-for-mopss",
+        
+          title: "Problem set for MOPSS",
+        
+        description: "Link to the problem set for MOPSS",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/PS0B24Aug/";
+          
+        },
+      },{id: "post-coloring-proofs",
+        
+          title: "Coloring proofs",
+        
+        description: "Coloring proofs",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/ColoringProofs/";
+          
+        },
+      },{id: "post-warm-up",
+        
+          title: "Warm Up",
+        
+        description: "Warm up problems on Combinatorics",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/WarmUpCombi/";
+          
+        },
+      },{id: "post-outreach-program-iiser-bhopal-08-may-2024",
+        
+          title: "Outreach program, IISER Bhopal, 08 May, 2024",
+        
+        description: "Outreach program, IISER Bhopal, 08 May, 2024",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/OutreachIISERB24May/";
+          
+        },
+      },{id: "post-test-template",
+        
+          title: "test template",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2023/F/";
+          
+        },
+      },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
