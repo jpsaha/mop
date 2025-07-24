@@ -1,5 +1,5 @@
 >
-> #### **Lecture notes for Math Olympiad (IOQM, RMO, INMO)**
+> #### **Lecture notes for Math Olympiad ([IOQM]({{ site.url }}{{ site.baseurl }}/IOQM/), [RMO]({{ site.url }}{{ site.baseurl }}/RMO/), [INMO]({{ site.url }}{{ site.baseurl }}/INMO/))**
 >
 > **Click on the <span style="color: #42b983"><i class="fa-solid fa-file-pdf fa-2x"></i></span> icons below to download.**
 >
