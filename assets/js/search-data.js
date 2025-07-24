@@ -16,6 +16,153 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/mop/blog/";
           },
+        },{id: "dropdown-algebra",
+              title: "Algebra",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mop/Algebra/";
+              },
+            },{id: "dropdown-combinatorics",
+              title: "Combinatorics",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mop/Combinatorics/";
+              },
+            },{id: "dropdown-geometry",
+              title: "Geometry",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mop/Geometry/";
+              },
+            },{id: "dropdown-number-theory",
+              title: "Number Theory",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mop/NumberTheory/";
+              },
+            },{id: "dropdown-resources",
+              title: "Resources",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mop/Resources/";
+              },
+            },{id: "dropdown-past-papers",
+              title: "Past Papers",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mop/PastPapers/";
+              },
+            },{id: "nav-ioqm",
+          title: "IOQM",
+          description: "Indian Olympiad Qualifier in Mathematics",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mop/IOQM/";
+          },
+        },{id: "nav-rmo",
+          title: "RMO",
+          description: "Regional Mathematical Olympiad",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mop/RMO/";
+          },
+        },{id: "nav-inmo",
+          title: "INMO",
+          description: "Indian National Mathematical Olympiad",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mop/INMO/";
+          },
+        },{id: "nav-inmotc",
+          title: "INMOTC",
+          description: "INMO Training Camp 2025, Madhya Predesh region",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mop/INMOTC/";
+          },
+        },{id: "nav-imotc",
+          title: "IMOTC",
+          description: "IMOTC 2025, held at the Chennai Mathematical Institute",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mop/IMOTC/";
+          },
+        },{id: "dropdown-prior-participations",
+              title: "Prior Participations",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mop/PriorParticipation/";
+              },
+            },{id: "dropdown-imo",
+              title: "IMO",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mop/IMO/";
+              },
+            },{id: "dropdown-apmo",
+              title: "APMO",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mop/APMO/";
+              },
+            },{id: "dropdown-egmo",
+              title: "EGMO",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mop/EGMO/";
+              },
+            },{id: "dropdown-further-olympiads",
+              title: "Further Olympiads",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mop/MoreOlympiads/";
+              },
+            },{id: "dropdown-glimpse-of-a-few-problems",
+              title: "Glimpse of a few problems",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mop/GlimpseOfAFewProblems/";
+              },
+            },{id: "dropdown-slides",
+              title: "Slides",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mop/Slides/";
+              },
+            },{id: "dropdown-eligibility",
+              title: "Eligibility",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mop/Eligibility/";
+              },
+            },{id: "nav-training",
+          title: "Training",
+          description: "Training Programs, OTIS, Sophie Fellowship, Online Math Club, ...",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mop/TrainingProg/";
+          },
+        },{id: "nav-mopss",
+          title: "MOPSS",
+          description: "Mathematics Olympiad Problem Solving Sessions",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mop/MOPSS/";
+          },
         },{id: "post-mopss-19th-july-2025",
         
           title: "MOPSS, 19th July 2025",
