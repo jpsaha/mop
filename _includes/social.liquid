@@ -10,6 +10,8 @@
       <a href="{{ social[1] }}" title="DBLP"><i class="ai ai-dblp"></i></a>
     {% when 'discord_id' %}
       <a href="https://discord.com/users/{{ social[1] }}" title="Discord"><i class="fa-brands fa-discord"></i></a>
+    {% when 'discord_server' %}
+      <a href="https://discord.gg/{{ social[1] }}" title="Discord Server"><i class="fa-brands fa-discord"></i></a>
     {% when 'email' %}
       <a href="mailto:{{ social[1] | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
     {% when 'facebook_id' %}
@@ -42,6 +44,8 @@
       <a href="https://www.linkedin.com/in/{{ social[1] }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
     {% when 'mastodon_username' %}
       <a rel="me" href="https://{{ social[1] }}" title="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
+    {% when 'mathstodon_username' %}
+      <a rel="me" href="https://{{ social[1] }}" title="Mathstodon"><i class="fa-brands fa-mastodon"></i></a>
     {% when 'medium_username' %}
       <a href="https://medium.com/@{{ social[1] }}" title="Medium"><i class="fa-brands fa-medium"></i></a>
     {% when 'orcid_id' %}
