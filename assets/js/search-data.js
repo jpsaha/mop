@@ -783,16 +783,14 @@ ninja.data = [{
             window.location.href = "/mop/blog/2023/F/";
           
         },
-      },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+      },{id: "news-mathematics-olympiad-problem-solving-sessions-mopss-will-be-organized-at-iiser-bhopal-please-visit-this-page-for-the-details",
+          title: 'Mathematics Olympiad Problem Solving Sessions (MOPSS) will be organized at IISER Bhopal. Please...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-the-deadline-for-submitting-application-for-mopss-has-been-extended-to-21st-july-2024-the-students-enrolled-in-the-11th-or-12th-standard-may-write-to-jyoti-prakash-saha-jpsaha-iiserb-ac-in-if-they-would-like-to-participate-in-mopss",
+          title: 'The deadline for submitting application for MOPSS has been extended to 21st July,...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/mop/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-mathematics-olympiad-problem-solving-sessions-mopss-will-be-held-during-9-00am-to-12-00pm-at-iiser-bhopal-in-person-offline-classroom-meetings-on-the-following-dates-5th-july-19th-july-2025-9th-23rd-august-2025-27th-september-2025-11th-25th-october-2025-22nd-november-2025-please-visit-this-page-for-the-details",
+          title: 'Mathematics Olympiad Problem Solving Sessions (MOPSS) will be held during 9:00am to 12:00pm...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
