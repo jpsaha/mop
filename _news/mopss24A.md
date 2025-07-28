@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Mathematics Olympiad Problem Solving Sessions (MOPSS) will be organized at [IISER Bhopal](https://www.iiserb.ac.in/). Please visit [this page]({{ site.url }}{{ site.baseurl }}/MOPSS24A/) for the details.
+[Mathematics Olympiad Problem Solving Sessions]({{ site.url }}{{ site.baseurl }}/MOPSS24A/) (MOPSS) will be organized at [IISER Bhopal](https://www.iiserb.ac.in/). Please visit [this page]({{ site.url }}{{ site.baseurl }}/MOPSS24A/) for the details.

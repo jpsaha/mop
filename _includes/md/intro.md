@@ -1,7 +1,7 @@
 
 ## Hello! I'm {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
 <!--
-[![Typing SVG](https://readme-typing-svg.demolab.com/?width=600&lines=Hi+there+👋,+I+am+Jyoti+Prakash+Saha+;+Welcome+to+this+page!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?width=600&lines=Hi+there+👋,+I+am+{{ site.first_name }}+{{ site.middle_name }}+{{ site.last_name }}+;+Welcome+to+this+page!)](https://git.io/typing-svg)
 -->
 
 - 🔭 I’m an Assistant Professor at the [Department of Mathematics](https://maths.iiserb.ac.in/), [IISER Bhopal](https://www.iiserb.ac.in/).
