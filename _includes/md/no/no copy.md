@@ -1,0 +1,2 @@
+{% for item in site.data.no %}{% if item.subj == page.title %}{% capture text %}|    [{{ item.topic }}]({{ site.url }}{{ site.baseurl }}/blog/{{ item.blog }}/)    |     [<i class="fa-solid fa-file-pdf fa-2x"></i>]({{ site.url }}{{ site.baseurl }}/assets/pdf/{{ page.jsujet }}/{{ item.pdf }}.pdf) |{% endcapture %}{% else %}{% capture text %}{{}}{% endcapture %}{% endif %}{{ text }}
+{% endfor %}

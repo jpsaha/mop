@@ -1,0 +1,2 @@
+{% for member in site.data.noalg %} |    [{{ member.topic }}]({{ site.url }}{{ site.baseurl }}/blog/{{ member.blog }}/)    |     [<i class="fa-solid fa-file-pdf fa-2x"></i>]({{ site.url }}{{ site.baseurl }}/assets/pdf/{{ page.jsujet }}/{{ member.pdf }}.pdf) |
+{% endfor %}

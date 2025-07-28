@@ -1,0 +1,26 @@
+topic,blog,pdf
+Warm up,2024/WarmUpAlg,WarmUp
+$$ a^3+b^3+c^3 - 3abc $$,2024/a3b3c3-3abc,a3b3c3-3abc
+Invariance principle,2024/Invariance,Invariance
+Polynomials,2024/Polynomials,Polynomials
+Quadratic polynomials,2024/Quadratic,Quadratic
+Cubic polynomials,2024/Cubic,Cubic
+Quartics,2024/Quartic,Quartic
+Viete's relations,2025/Viete,Viete
+Differentiation and multiple roots,2025/DiffMultRoot,DiffMultRoot
+Finite differences,2025/FiniteDiff,FiniteDiff
+Telescoping,2025/Tele,Tele
+Growth of Polynomials,2024/GrowthOfPoly,PolyGrowth
+Binomial theorem,2024/Binomial,Binomial
+Arithmetic progressions,2024/AP,AP
+Rational and irrational numbers,2024/Rationals,Rationals
+Size of the roots,2025/RootSize,RootSize
+Roots of unity,2025/RootsUnity,RootsUnity
+Complex numbers,,
+Crossing the $$ x $$-axis,2025/IMVT,IMVT
+Lagrange interpolation,2025/LagrangeInt,LagrangeInt
+Integer divisibility,2025/IntDiv,IntDiv
+Functional equations,2024/FuncEq,FuncEq
+System of equations,2025/SysEqn,SysEqn
+Induction,,
+Inequalities,2025/Ineq,Ineq
