@@ -2,7 +2,7 @@
 layout: post
 title: Auxiliary configuration
 date: 2025-02-14 08:57:00-0400
-description: Auxiliary configuration in Combinatorics
+description: Auxiliary configuration in Combinatorics. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.
 tags: combinatorics Pre-RMO IOQM RMO INMO MathOlympiad Notes Handouts LectureNotes
 categories: combinatorics
 jpdf: AuxConfig

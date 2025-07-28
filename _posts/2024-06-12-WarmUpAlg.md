@@ -2,7 +2,7 @@
 layout: post
 title: Warm Up
 date: 2024-06-12 08:57:00-0400
-description: Warm up problems on Algebra
+description: Warm up problems on Algebra. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.
 tags: algebra Pre-RMO IOQM RMO INMO MathOlympiad Notes Handouts LectureNotes
 categories: algebra
 jpdf: WarmUp

@@ -6,7 +6,7 @@ description: Previous Years' Question Papers of Pre-RMO, IOQM, RMO, INMO, EGMOTC
 pretty_table: true
 tags: PastQuestionPapers PreviousYearsQuestionsPapers IOQM Pre-RMO RMO INMO EGMOTC IMOTC MathOlympiad MathematicsOlympiad
 categories: IOQM Pre-RMO RMO INMO
-lnmo: true
+lnmo: false
 giscus_comments: true
 pretty_table: true
 related_posts: false

@@ -2,7 +2,7 @@
 layout: post
 title: Quadratic polynomials
 date: 2024-06-16 08:57:00-0400
-description: Quadratic polynomials
+description: Quadratic polynomials. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.
 tags: algebra Pre-RMO IOQM RMO INMO MathOlympiad Notes Handouts LectureNotes
 categories: algebra
 jpdf: Quadratic

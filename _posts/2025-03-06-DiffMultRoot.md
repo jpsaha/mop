@@ -2,7 +2,7 @@
 layout: post
 title: Differentiation and multiple roots
 date: 2025-03-06 08:57:00-0400
-description: Differentiation and multiple roots
+description: Differentiation and multiple roots. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.
 tags: algebra Pre-RMO IOQM RMO INMO MathOlympiad Notes Handouts LectureNotes
 categories: algebra
 jpdf: DiffMultRoot
