@@ -2,7 +2,7 @@
 layout: page
 permalink: /APMO/
 title: APMO
-description: Asian Pacific Mathematics Olympiad
+description: Participation of a few Indian contestants in Asian Pacific Mathematics Olympiad (APMO)
 nav: false
 nav_order: 12
 giscus_comments: true

@@ -2,7 +2,7 @@
 layout: page
 permalink: /Resources/
 title: Resources
-description: Resources
+description: Resources for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.
 nav: false
 nav_order: 6
 tabs: true

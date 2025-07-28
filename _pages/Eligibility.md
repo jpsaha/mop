@@ -2,7 +2,7 @@
 layout: page
 permalink: /Eligibility/
 title: Eligibility
-description: Eligibility
+description: Eligibility for participating in IOQM. Mathematics Olympiad program in India.
 nav: false
 nav_order: 10
 tabs: true

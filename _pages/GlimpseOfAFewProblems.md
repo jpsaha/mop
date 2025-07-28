@@ -2,7 +2,7 @@
 layout: page
 permalink: /GlimpseOfAFewProblems/
 title: Glimpse of a few problems
-description: Glimpse of a few problems
+description: Glimpse of a few problems. Mathematics Olympiad, IOQM, RMO, INMO.  Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.
 nav: false
 nav_order: 15
 lnmo: true

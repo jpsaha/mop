@@ -2,7 +2,7 @@
 layout: page
 permalink: /PriorParticipation/
 title: Prior Participations
-description: Participation of a few Indian contestants in some International Olympiads
+description: Participation of a few Indian contestants in IMO, APMO, EGMO, some International Olympiads
 nav: false
 nav_order: 10
 tabs: true
@@ -12,13 +12,15 @@ chart:
 ---
 
 ## International Olympiads
+
 There are several Mathematical Olympiads of International repute, where students participated from India. 
-They include 
-- [International Mathematical Olympiad](https://www.imo-official.org/) (IMO), 
-- [Asian Pacific Mathematics Olympiad](https://www.apmo-official.org/) (APMO), 
-- [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO), 
-- [Sharygin Geometry Olympiad](https://geometry.ru/olimp/olimpsharygin.php), 
-- [Iranian Geometry Olympiad](https://igo-official.com/?lang=en) (IGO), 
+They include
+
+- [International Mathematical Olympiad](https://www.imo-official.org/) (IMO),
+- [Asian Pacific Mathematics Olympiad](https://www.apmo-official.org/) (APMO),
+- [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO),
+- [Sharygin Geometry Olympiad](https://geometry.ru/olimp/olimpsharygin.php),
+- [Iranian Geometry Olympiad](https://igo-official.com/?lang=en) (IGO),
 - [Tournament of Towns](https://www.turgor.ru/en/).
 
 {% capture mo %}{% include md/mo.md %}{% endcapture %}
@@ -30,7 +32,7 @@ They include
 
 {% tab participation Anant Mudgal %}
 
-participated in 
+participated in
 
 - [IMO](https://www.imo-official.org/participant_r.aspx?id=25764)  2015 (HM), 2016 (B), 2017 (B), 2018 (S),
 - APMO [2016](https://www.apmo-official.org/country_report/IND/2016) (B), [2017](https://www.apmo-official.org/country_report/IND/2017) (S).
@@ -88,12 +90,15 @@ participated in
 - [EGMO](https://www.egmo.org/people/person1867/) 2022 (B), 2023 (S), 2024 (S).
 
 She [qualified](https://www.linkedin.com/in/gunjan-aggarwal-5551b4232/)
+
 - diploma in Sharygin Geometry Olympiad in 2019.
 
 She [received](https://www.linkedin.com/in/gunjan-aggarwal-5551b4232/) a
+
 - Silver medal in IGO.
 
 She [obtained](https://www.linkedin.com/in/gunjan-aggarwal-5551b4232/) a
+
 - Diploma in Tournament of Towns.
 
 {% endtab %}
@@ -101,13 +106,14 @@ She [obtained](https://www.linkedin.com/in/gunjan-aggarwal-5551b4232/) a
 {% tab participation Amaan Khan %}
 
 qualified for
+
 - the Final round of Sharygin Geometry Olympiad in 2020 and won a 3rd diploma.
 
 {% endtab %}
 
 {% tab participation Adhitya Venkata Ganesh Mangudy %}
 
-participated in 
+participated in
 
 - [IMO](https://www.imo-official.org/participant_r.aspx?id=31724) 2022 (B), 2023 (B), 2024 (G),
 - APMO in [2022](https://www.apmo-official.org/country_report/IND/2022) (B), [2023](https://www.apmo-official.org/country_report/IND/2023) (S),

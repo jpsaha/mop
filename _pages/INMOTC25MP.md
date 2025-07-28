@@ -2,7 +2,7 @@
 layout: page
 permalink: /INMOTC25MP/
 title: INMOTC 2025
-description: Indian National Mathematical Olympiad (INMO) Training Camp 2025, Madhya Pradesh region
+description: Indian National Mathematical Olympiad (INMO) Training Camp 2025, Madhya Pradesh region. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.
 nav: false
 nav_order: 38
 tags: [INMOTC, Madhya Pradesh region, algebra, combinatorics, geometry, number theory, Pre-RMO, IOQM, RMO, INMO, Math, Olympiad, Math Olympiad, Mathematics Olympiad, Notes, Handouts, Lecture Notes, Problem set, Questions, Answers, Problems, Solutions, Discussions, pdf]

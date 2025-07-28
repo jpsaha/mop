@@ -2,7 +2,7 @@
 layout: page
 permalink: /INMOTC/
 title: INMOTC
-description: INMO Training Camp 2025, Madhya Predesh region
+description: INMO Training Camp 2025, Madhya Predesh region. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.
 nav: true
 nav_order: 5
 tags: [INMOTC, Madhya Pradesh region, algebra, combinatorics, geometry, number theory, Pre-RMO, IOQM, RMO, INMO, Math, Olympiad, Math Olympiad, Mathematics Olympiad, Notes, Handouts, Lecture Notes, Problem set, Questions, Answers, Problems, Solutions, Discussions, pdf]

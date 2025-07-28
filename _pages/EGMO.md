@@ -2,7 +2,7 @@
 layout: page
 permalink: /EGMO/
 title: EGMO
-description: European Girls’ Mathematical Olympiad
+description: Participation of a few Indian contestants in European Girls’ Mathematical Olympiad (EGMO)
 nav: false
 nav_order: 13
 giscus_comments: true
@@ -13,8 +13,8 @@ giscus_comments: true
 * The European Girls’ Mathematical Olympiad ([EGMO](https://www.egmo.org/))
 
 > is the premier European mathematics competition, made exclusively for high school female students who enjoy mathematics beyond the regular school curriculum. Started by the United Kingdom in April 2012, EGMO has grown since then and now includes over fifty countries, welcoming participants from beyond Europe.
-* [EGMO](https://www.egmo.org/)
-> aims to inspire girls to take part in national and international mathematics competitions, providing more opportunities for mathematical development. It serves as a platform to amplify the presence of young female mathematicians on the global stage with the possibility to find associates and make remarkable connections while fostering cultural exchange among teenagers worldwide. It encourages young females to become scientists and boosts the number of girls in IMO teams.
+>
+> * [EGMO](https://www.egmo.org/) aims to inspire girls to take part in national and international mathematics competitions, providing more opportunities for mathematical development. It serves as a platform to amplify the presence of young female mathematicians on the global stage with the possibility to find associates and make remarkable connections while fostering cultural exchange among teenagers worldwide. It encourages young females to become scientists and boosts the number of girls in IMO teams.
 
 * The [first](https://www.egmo.org/egmos/) EGMO was held in 2012, with [19](https://www.egmo.org/egmos/egmo1/) countries participating.
 * The EGMO is held annually.

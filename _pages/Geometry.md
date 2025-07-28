@@ -3,11 +3,12 @@ layout: page
 permalink: /Geometry/
 title: Geometry
 date: 2024-06-24 08:57:00-0400
-description: Geometry notes for Mathematics Olympiad, IOQM, RMO, INMO
+description: Geometry notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.
 nav: false
 nav_order: 23
 tags: [geometry, Pre-RMO, IOQM, RMO, INMO, Math, Olympiad, Math Olympiad, Mathematics Olympiad, Notes, Handouts, Lecture Notes, Problem set, Questions, Answers, Problems, Solutions, Discussions, pdf]
 categories: geometry
+jsujet: Geometry
 giscus_comments: true
 pretty_table: true
 ---

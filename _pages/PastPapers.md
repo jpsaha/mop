@@ -2,7 +2,7 @@
 layout: page
 permalink: /PastPapers/
 title: Past Question Papers of Pre-RMO, IOQM, RMO, INMO, EGMOTC, IMOTC
-description: Previous Years' Question Papers of Pre-RMO, IOQM, RMO, INMO, EGMOTC, IMOTC
+description: Previous Years' Question Papers of Pre-RMO, IOQM, RMO, INMO, EGMOTC, IMOTC. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.
 pretty_table: true
 nav: false
 nav_order: 25
