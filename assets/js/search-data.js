@@ -53,7 +53,7 @@ ninja.data = [{
               },
             },{id: "nav-ioqm",
           title: "IOQM",
-          description: "Indian Olympiad Qualifier in Mathematics",
+          description: "Indian Olympiad Qualifier in Mathematics. Links to Past Question Papers of IOQM, Answer keys.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/mop/IOQM/";
@@ -74,14 +74,14 @@ ninja.data = [{
           },
         },{id: "nav-inmotc",
           title: "INMOTC",
-          description: "INMO Training Camp 2025, Madhya Predesh region",
+          description: "INMO Training Camp 2025, Madhya Predesh region. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/mop/INMOTC/";
           },
         },{id: "nav-imotc",
           title: "IMOTC",
-          description: "IMOTC 2025, held at the Chennai Mathematical Institute",
+          description: "IMOTC 2025, held at the Chennai Mathematical Institute. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/mop/IMOTC/";
@@ -160,7 +160,7 @@ ninja.data = [{
         
           title: "MOPSS, 19th July 2025",
         
-        description: "MOPSS Problems, Walkthroughs, Solutions from 19th July 2025",
+        description: "MOPSS Problems, Walkthroughs, Solutions from 19th July 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -171,7 +171,7 @@ ninja.data = [{
         
           title: "MOPSS, 5th July 2025",
         
-        description: "MOPSS Problems, Walkthroughs, Solutions from 5th July 2025",
+        description: "MOPSS Problems, Walkthroughs, Solutions from 5th July 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -182,7 +182,7 @@ ninja.data = [{
         
           title: "Orders",
         
-        description: "Orders",
+        description: "Orders. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -193,7 +193,7 @@ ninja.data = [{
         
           title: "Gauss&#39;s lemma",
         
-        description: "Gauss&#39;s lemma",
+        description: "Gauss&#39;s lemma. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -204,7 +204,7 @@ ninja.data = [{
         
           title: "Chinese remainder theorem",
         
-        description: "Chinese remainder theorem",
+        description: "Chinese remainder theorem. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -215,7 +215,7 @@ ninja.data = [{
         
           title: "Primes, divisors and congruences",
         
-        description: "Primes, divisors and congruences",
+        description: "Primes, divisors and congruences. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -226,7 +226,7 @@ ninja.data = [{
         
           title: "System of equations",
         
-        description: "System of Equations",
+        description: "System of Equations. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -237,7 +237,7 @@ ninja.data = [{
         
           title: "Binomial coefficients",
         
-        description: "Binomial coefficients",
+        description: "Binomial coefficients. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -248,7 +248,7 @@ ninja.data = [{
         
           title: "Quadratic polynomials",
         
-        description: "Quadratic polynomials",
+        description: "Quadratic polynomials. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -259,7 +259,7 @@ ninja.data = [{
         
           title: "Using identities",
         
-        description: "Using identities",
+        description: "Using identities. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -270,7 +270,7 @@ ninja.data = [{
         
           title: "Induction",
         
-        description: "Induction",
+        description: "Induction. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -281,7 +281,7 @@ ninja.data = [{
         
           title: "Cubic polynomials",
         
-        description: "Cubic polynomials",
+        description: "Cubic polynomials. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -292,7 +292,7 @@ ninja.data = [{
         
           title: "Telescoping",
         
-        description: "Telescoping",
+        description: "Telescoping. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -303,7 +303,7 @@ ninja.data = [{
         
           title: "Inequalities",
         
-        description: "Inequalities",
+        description: "Inequalities. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -314,7 +314,7 @@ ninja.data = [{
         
           title: "System of equations",
         
-        description: "System of equations",
+        description: "System of equations. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -325,7 +325,7 @@ ninja.data = [{
         
           title: "Integer divisibility",
         
-        description: "Integer divisibility",
+        description: "Integer divisibility. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -336,7 +336,7 @@ ninja.data = [{
         
           title: "Lagrange interpolation",
         
-        description: "Lagrange interpolation",
+        description: "Lagrange interpolation. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -347,7 +347,7 @@ ninja.data = [{
         
           title: "Crossing the $$ x $$-axis",
         
-        description: "Crossing the $$ x $$-axis, Intermediate value theorem",
+        description: "Crossing the $$ x $$-axis, Intermediate value theorem. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -358,7 +358,7 @@ ninja.data = [{
         
           title: "Roots of unity",
         
-        description: "Roots of unity",
+        description: "Roots of unity. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -369,7 +369,7 @@ ninja.data = [{
         
           title: "Size of the roots",
         
-        description: "Size of the roots",
+        description: "Size of the roots. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -380,7 +380,7 @@ ninja.data = [{
         
           title: "Finite differences",
         
-        description: "Finite differences",
+        description: "Finite differences. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -391,7 +391,7 @@ ninja.data = [{
         
           title: "Differentiation and multiple roots",
         
-        description: "Differentiation and multiple roots",
+        description: "Differentiation and multiple roots. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -402,7 +402,7 @@ ninja.data = [{
         
           title: "Viete&#39;s relations",
         
-        description: "Viete&#39;s relations",
+        description: "Viete&#39;s relations. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -413,7 +413,7 @@ ninja.data = [{
         
           title: "Generating functions",
         
-        description: "Generating functions",
+        description: "Generating functions. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -424,7 +424,7 @@ ninja.data = [{
         
           title: "Counting in two different ways",
         
-        description: "Counting in two different ways",
+        description: "Counting in two different ways. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -435,7 +435,7 @@ ninja.data = [{
         
           title: "Counting the complement",
         
-        description: "Counting the complement",
+        description: "Counting the complement. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -446,7 +446,7 @@ ninja.data = [{
         
           title: "Counting via bijections",
         
-        description: "Counting via bijections",
+        description: "Counting via bijections. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -457,7 +457,7 @@ ninja.data = [{
         
           title: "Counting",
         
-        description: "Counting",
+        description: "Counting. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -468,7 +468,7 @@ ninja.data = [{
         
           title: "Grouping in pairs",
         
-        description: "Grouping in pairs",
+        description: "Grouping in pairs. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -479,7 +479,7 @@ ninja.data = [{
         
           title: "Grouping in pairs",
         
-        description: "Arrange in order",
+        description: "Arrange in order. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -490,7 +490,7 @@ ninja.data = [{
         
           title: "Extremal principle",
         
-        description: "Extremal principle",
+        description: "Extremal principle. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -501,7 +501,7 @@ ninja.data = [{
         
           title: "Pigeonhole principle",
         
-        description: "Pigeonhole principle",
+        description: "Pigeonhole principle. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -512,7 +512,7 @@ ninja.data = [{
         
           title: "Invariance",
         
-        description: "Invariance principle",
+        description: "Invariance principle. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -523,7 +523,7 @@ ninja.data = [{
         
           title: "Inclusion-exclusion principle",
         
-        description: "Inclusion-exclusion principle",
+        description: "Inclusion-exclusion principle. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -534,7 +534,7 @@ ninja.data = [{
         
           title: "Induction",
         
-        description: "Induction",
+        description: "Induction. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -545,7 +545,7 @@ ninja.data = [{
         
           title: "Auxiliary configuration",
         
-        description: "Auxiliary configuration in Combinatorics",
+        description: "Auxiliary configuration in Combinatorics. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -578,7 +578,7 @@ ninja.data = [{
         
           title: "Rational and irrational numbers",
         
-        description: "Rational and irrational numbers",
+        description: "Rational and irrational numbers. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -589,18 +589,18 @@ ninja.data = [{
         
           title: "Arithmetic progressions",
         
-        description: "Arithmetic progressions",
+        description: "Arithmetic progressions. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/mop/blog/2024/AP/";
           
         },
-      },{id: "post-ioqm",
+      },{id: "post-ioqm-2023-questions-discussions",
         
-          title: "IOQM",
+          title: "IOQM 2023 Questions, Discussions",
         
-        description: "IOQM 2023 Discussion, Solutions, Answer key",
+        description: "IOQM 2023 Discussion, Solutions, Answer key. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -611,7 +611,7 @@ ninja.data = [{
         
           title: "More on Polynomials",
         
-        description: "More on Polynomials",
+        description: "More on Polynomials. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -622,7 +622,7 @@ ninja.data = [{
         
           title: "Binomial theorem",
         
-        description: "Binomial theorem",
+        description: "Binomial theorem. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -633,7 +633,7 @@ ninja.data = [{
         
           title: "Functional equations",
         
-        description: "Functional equations",
+        description: "Functional equations. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -644,7 +644,7 @@ ninja.data = [{
         
           title: "Growth of Polynomials",
         
-        description: "Growth of Polynomials",
+        description: "Growth of Polynomials. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -655,7 +655,7 @@ ninja.data = [{
         
           title: "Quartics",
         
-        description: "Quartic polynomials",
+        description: "Quartic polynomials. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -666,7 +666,7 @@ ninja.data = [{
         
           title: "Cubic polynomials",
         
-        description: "Cubic polynomials",
+        description: "Cubic polynomials. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -677,7 +677,7 @@ ninja.data = [{
         
           title: "Quadratic polynomials",
         
-        description: "Quadratic polynomials",
+        description: "Quadratic polynomials. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -688,7 +688,7 @@ ninja.data = [{
         
           title: "Polynomials",
         
-        description: "Polynomials",
+        description: "Polynomials. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -699,7 +699,7 @@ ninja.data = [{
         
           title: "Invariance principle",
         
-        description: "Invariance principle",
+        description: "Invariance principle. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -710,7 +710,7 @@ ninja.data = [{
         
           title: "$$ a^3+b^3+c^3 - 3abc $$",
         
-        description: "$$ a^3+b^3+c^3 - 3abc $$",
+        description: "$$ a^3+b^3+c^3 - 3abc $$. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -721,7 +721,7 @@ ninja.data = [{
         
           title: "Warm Up",
         
-        description: "Warm up problems on Algebra",
+        description: "Warm up problems on Algebra. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -743,7 +743,7 @@ ninja.data = [{
         
           title: "Coloring proofs",
         
-        description: "Coloring proofs",
+        description: "Coloring proofs. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
@@ -754,7 +754,7 @@ ninja.data = [{
         
           title: "Warm Up",
         
-        description: "Warm up problems on Combinatorics",
+        description: "Warm up problems on Combinatorics. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
         handler: () => {
           
