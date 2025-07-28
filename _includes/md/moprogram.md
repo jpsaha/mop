@@ -19,22 +19,8 @@ The [Homi Bhabha Centre for Science Education](https://olympiads.hbcse.tifr.res.
 
 ## Some [stages](https://olympiads.hbcse.tifr.res.in/about-olympiads/stages/mathematical-olympiad/) of the Math Olympiad program 2025 --- 2026
 
-```mermaid
-graph LR
-    Q(IOQM
-    7th Sept, 2025) --> R(RMO
-    9th Nov, 2025)
-    R -- INMO Training Camp --> N(INMO
-    18th Jan, 2026)
-    N --> J(IMOTC
-    May 2026)
-    J --> P((PDC))
-    P --> I{IMO}
-    N --> E(EGMOTC)
-    E --> F((EGMOPDC))
-    F --> G{EGMO}
-    N --> A{APMO}
-```
+{% capture content %}{% include md/mostages/stages2526.md %}{% endcapture %}
+{{ content | markdownify }}
 
 <!-- https://mermaid.js.org/syntax/examples  -->
 
@@ -44,11 +30,8 @@ graph LR
 
 ### IOQM (Indian Olympiad Qualifier in Mathematics)
 
-- Scheduled on [7th September, 2025](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2025-2026/).
-- The paper consists of 30 questions worth 100 marks in total. 
-- There are 10 questions worth 2 marks, 10 questions worth 3 marks, 10 questions worth 5 marks.
-- Websites: [MTAI](https://www.mtai.org.in), [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2025-2026/).
-- A few problems from IOQM 2023 have been discussed [here]({{ site.url }}{{ site.baseurl }}/blog/2024/IOQM/).
+{% capture content %}{% include md/mostages/ioqm2526.md %}{% endcapture %}
+{{ content | markdownify }}
 
 {% endtab %}
 
