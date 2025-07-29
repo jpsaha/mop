@@ -40,8 +40,13 @@ pretty_table: true
 - Cyclic quadrilaterals
 - Using complex numbers
 
+<!-- 
 {% capture lnmog %}{% include lnmo/lnmogeo.md %}{% endcapture %}
-{{ lnmog | markdownify }}
+{{ lnmog | markdownify }} -->
+
+{% capture jnotess %}{% include md/lnmoall.md %}{% endcapture %}
+
+{{ jnotess }}
 
 {% capture thesenotes %}{% include md/thesenotes.md %}{% endcapture %}
 {{ thesenotes | markdownify }}

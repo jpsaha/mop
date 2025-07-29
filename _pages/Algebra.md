@@ -24,12 +24,14 @@ pretty_table: true
 
 {% capture jnotes %}{% include md/no/no.md %}{% endcapture %}
 
-|   {{ page.title }} Topics     |    Links            |
-| :------------: | :------------: |
 {{ jnotes }}
-
+<!-- 
 {% capture lnmoa %}{% include lnmo/lnmoalg.md %}{% endcapture %}
-{{ lnmoa | markdownify }}
+{{ lnmoa | markdownify }} -->
+
+{% capture jnotess %}{% include md/lnmoall.md %}{% endcapture %}
+
+{{ jnotess }}
 
 {% capture thesenotes %}{% include md/thesenotes.md %}{% endcapture %}
 {{ thesenotes | markdownify }}

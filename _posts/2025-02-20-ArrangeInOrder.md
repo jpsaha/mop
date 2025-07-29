@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Grouping in pairs
+title: Arrange in order
 date: 2025-02-20 08:57:00-0400
 description: Arrange in order. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.
 tags: combinatorics Pre-RMO IOQM RMO INMO MathOlympiad Notes Handouts LectureNotes

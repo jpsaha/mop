@@ -24,5 +24,6 @@ pretty_table: true
 
 <iframe src="{{ site.baseurl }}/assets/pdf/IMOTC/IMOTC25Alg.pdf" width="100%" height="700" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
-{% capture lnmo %}{% include lnmo/lnmoall.md %}{% endcapture %}
-{{ lnmo | markdownify }}
+{% capture jnotess %}{% include md/lnmoall.md %}{% endcapture %}
+
+{{ jnotess }}

@@ -6,6 +6,7 @@ description: Indian National Mathematical Olympiad (INMO) Training Camp 2025, Ma
 nav: false
 nav_order: 38
 tags: [INMOTC, Madhya Pradesh region, algebra, combinatorics, geometry, number theory, Pre-RMO, IOQM, RMO, INMO, Math, Olympiad, Math Olympiad, Mathematics Olympiad, Notes, Handouts, Lecture Notes, Problem set, Questions, Answers, Problems, Solutions, Discussions, pdf]
+jsujet: INMOTC
 giscus_comments: true
 pretty_table: true
 ---
