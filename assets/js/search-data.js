@@ -53,21 +53,21 @@ ninja.data = [{
               },
             },{id: "nav-ioqm",
           title: "IOQM",
-          description: "Indian Olympiad Qualifier in Mathematics. Links to Past Question Papers of IOQM, Answer keys.",
+          description: "Indian Olympiad Qualifier in Mathematics. Links to Past Question Papers of IOQM, Answer keys. Hints, Walkthroughs, Discussions.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/mop/IOQM/";
           },
         },{id: "nav-rmo",
           title: "RMO",
-          description: "Regional Mathematical Olympiad",
+          description: "Regional Mathematical Olympiad. Links to Past Question Papers of RMO, Solutions. Hints, Walkthroughs, Discussions.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/mop/RMO/";
           },
         },{id: "nav-inmo",
           title: "INMO",
-          description: "Indian National Mathematical Olympiad",
+          description: "Indian National Mathematical Olympiad. Links to Past Question Papers of INMO, Solutions. Hints, Walkthroughs, Discussions.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/mop/INMO/";
@@ -475,9 +475,9 @@ ninja.data = [{
             window.location.href = "/mop/blog/2025/GrpPairs/";
           
         },
-      },{id: "post-grouping-in-pairs",
+      },{id: "post-arrange-in-order",
         
-          title: "Grouping in pairs",
+          title: "Arrange in order",
         
         description: "Arrange in order. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
         section: "Posts",
