@@ -772,6 +772,61 @@ ninja.data = [{
             window.location.href = "/mop/blog/2024/OutreachIISERB24May/";
           
         },
+      },{id: "post-notes-on-rmo",
+        
+          title: "Notes on RMO",
+        
+        description: "Regional Mathematical Olympiad. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/NotesRMO/";
+          
+        },
+      },{id: "post-notes-on-ioqm",
+        
+          title: "Notes on IOQM",
+        
+        description: "Indian Olympiad Qualifier in Mathematics. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/NotesIOQM/";
+          
+        },
+      },{id: "post-notes-on-inmo",
+        
+          title: "Notes on INMO",
+        
+        description: "Indian National Mathematical Olympiad. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/NotesINMO/";
+          
+        },
+      },{id: "post-mathematics-olympiad-handouts",
+        
+          title: "Mathematics Olympiad Handouts",
+        
+        description: "Mathematics Olympiad handouts. IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/MOhandout/";
+          
+        },
+      },{id: "post-lecture-notes-on-mathematical-olympiad",
+        
+          title: "Lecture notes on Mathematical Olympiad",
+        
+        description: "Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2024/LNMO/";
+          
+        },
       },{id: "post-test-template",
         
           title: "test template",
