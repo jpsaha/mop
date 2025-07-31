@@ -1,0 +1,175 @@
+{% if include.type == 'defn' %}
+  {% capture mytype %}definition{% endcapture %}
+  {% assign myid = include.id | default: include.title | slugify | default: "definition-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+{% else %}
+  {% if include.type == 'eg' %}
+    {% capture mytype %}example{% endcapture %}
+    {% assign myid = include.id | default: include.title | slugify | default: "example-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+    {% assign myblock = "example-block" %}
+  {% else %}
+    {% if include.type == 'eg1' %}
+      {% capture mytype %}example{% endcapture %}
+      {% assign myid = include.id | default: include.title | slugify | default: "example-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+      {% assign myblock = "example-block" %}
+    {% else %}
+      {% if include.type == 'lem' %}
+        {% capture mytype %}lemma{% endcapture %}
+        {% assign myid = include.id | default: include.title | slugify | default: "lemma-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+      {% else %}
+        {% if include.type == 'claim' %}
+          {% capture mytype %}claim{% endcapture %}
+          {% assign myid = include.id | default: include.title | slugify | default: "claim-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+        {% else %}
+          {% if include.type == 'prop' %}
+            {% capture mytype %}proposition{% endcapture %}
+            {% assign myid = include.id | default: include.title | slugify | default: "proposition-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+          {% else %}
+            {% if include.type == 'thm' %}
+              {% capture mytype %}theorem{% endcapture %}
+              {% assign myid = include.id | default: include.title | slugify | default: "theorem-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+            {% else %}
+              {% if include.type == 'hint' %}
+                {% capture mytype %}hint{% endcapture %}
+                {% assign myid = include.id | default: include.title | slugify | default: "hint-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+              {% else %}
+                {% if include.type == 'watru' %}
+                  {% capture mytype %}walkthrough{% endcapture %}
+                  {% assign myid = include.id | default: include.title | slugify | default: "walkthrough-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+                {% else %}
+                  {% if include.type == 'pf' %}
+                    {% capture mytype %}proof{% endcapture %}
+                    {% assign myid = include.id | default: include.title | slugify | default: "proof-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+                  {% else %}
+                    {% if include.type == 'rk' %}
+                      {% capture mytype %}remark{% endcapture %}
+                      {% assign myid = include.id | default: include.title | slugify | default: "remark-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+                    {% else %}
+                      {% if include.type == 'rk1' %}
+                        {% capture mytype %}remark{% endcapture %}
+                        {% assign myid = include.id | default: include.title | slugify | default: "remark-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+                      {% else %}
+                        {% if include.type == 'prblm' %}
+                          {% capture mytype %}problem{% endcapture %}
+                          {% assign myid = include.id | default: include.title | slugify | default: "problem-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+                        {% else %}
+                          {% if include.type == 'soln' %}
+                            {% capture mytype %}solution{% endcapture %}
+                            {% assign myid = include.id | default: include.title | slugify | default: "solution-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+                          {% else %}
+                            {% if include.type == 'xca' %}
+                              {% capture mytype %}exercise{% endcapture %}
+                              {% assign myid = include.id | default: include.title | slugify | default: "exercise-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+                            {% else %}
+                              {% if include.type == 'bogus' %}
+                                {% capture mytype %}bogus{% endcapture %}
+                                {% assign myid = include.id | default: include.title | slugify | default: "bogus-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+                              {% else %}
+                              {% endif %}
+                            {% endif %}
+                          {% endif %}
+                        {% endif %}
+                      {% endif %}
+                    {% endif %}
+                  {% endif %}
+                {% endif %}
+              {% endif %}
+            {% endif %}
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+<div class="{{ mytype }}-block" id="{{ myid }}">
+  <span class="block-title"></span>
+  <a class="anchor-link" href="#{{ myid }}" title="Link to this {{ mytype }}">🔗</a>
+  {% if include.type == 'defn' %}
+    {% capture myvar %}{{ include.content.defn }}{% endcapture %}
+    {{ myvar | markdownify }}
+  {% else %}
+    {% if include.type == 'eg' %}
+      {% capture myvar %}{{ include.content.eg }}{% endcapture %}
+      {{ myvar | markdownify }}
+    {% else %}
+      {% if include.type == 'eg1' %}
+        {% capture myvar %}{{ include.content.eg1 }}{% endcapture %}
+        {{ myvar | markdownify }}
+      {% else %}
+        {% if include.type == 'lem' %}
+          {% capture myvar %}{{ include.content.lem }}{% endcapture %}
+          {{ myvar | markdownify }}
+        {% else %}
+          {% if include.type == 'claim' %}
+            {% capture myvar %}{{ include.content.claim }}{% endcapture %}
+            {{ myvar | markdownify }}
+          {% else %}
+            {% if include.type == 'prop' %}
+              {% capture myvar %}{{ include.content.prop }}{% endcapture %}
+              {{ myvar | markdownify }}
+            {% else %}
+              {% if include.type == 'thm' %}
+                {% capture myvar %}{{ include.content.thm }}{% endcapture %}
+                {{ myvar | markdownify }}
+              {% else %}
+                {% if include.type == 'hint' %}
+                  {% capture myvar %}{{ include.content.hint }}{% endcapture %}
+                  {{ myvar | markdownify }}
+                {% else %}
+                  {% if include.type == 'watru' %}
+                    {% details Click here for the spoiler! %}
+                    <br>
+                    {% capture myvar %}{{ include.content.watru }}{% endcapture %}
+                    {{ myvar | markdownify }}
+                    {% enddetails %}
+                  {% else %}
+                    {% if include.type == 'pf' %}
+                      {% details Click here for the spoiler! %}
+                      <br>
+                      {% capture myvar %}{{ include.content.pf }}{% endcapture %}
+                      {{ myvar | markdownify }}
+                      {% enddetails %}
+                    {% else %}
+                      {% if include.type == 'rk' %}
+                        {% capture myvar %}{{ include.content.rk }}{% endcapture %}
+                        {{ myvar | markdownify }}
+                      {% else %}
+                        {% if include.type == 'rk1' %}
+                          {% capture myvar %}{{ include.content.rk1 }}{% endcapture %}
+                          {{ myvar | markdownify }}
+                        {% else %}
+                          {% if include.type == 'prblm' %}
+                            {% capture myvar %}{{ include.content.prblm }}{% endcapture %}
+                            {{ myvar | markdownify }}
+                          {% else %}
+                            {% if include.type == 'soln' %}
+                              {% details Click here for the spoiler! %}
+                              <br>
+                              {% capture myvar %}{{ include.content.soln }}{% endcapture %}
+                              {{ myvar | markdownify }}
+                              {% enddetails %}
+                            {% else %}
+                              {% if include.type == 'xca' %}
+                                {% capture myvar %}{{ include.content.xca }}{% endcapture %}
+                                {{ myvar | markdownify }}
+                              {% else %}
+                                {% if include.type == 'bogus' %}
+                                  {% capture myvar %}{{ include.content.bogus }}{% endcapture %}
+                                  {{ myvar | markdownify }}
+                                {% else %}
+                                {% endif %}
+                              {% endif %}
+                            {% endif %}
+                          {% endif %}
+                        {% endif %}
+                      {% endif %}
+                    {% endif %}
+                  {% endif %}
+                {% endif %}
+              {% endif %}
+            {% endif %}
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+</div>

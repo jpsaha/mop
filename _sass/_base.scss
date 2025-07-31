@@ -27,7 +27,6 @@ table {
   td,
   th {
     font-size: 1rem;
-    padding: 1px 1rem 1px 0;
   }
 
   th {
@@ -72,10 +71,7 @@ blockquote {
     border-color: var(--global-tip-block);
     background-color: var(--global-tip-block-bg);
 
-    em,
-    li,
-    p,
-    strong {
+    p {
       color: var(--global-tip-block-text);
     }
 
@@ -93,10 +89,7 @@ blockquote {
     border-color: var(--global-warning-block);
     background-color: var(--global-warning-block-bg);
 
-    em,
-    li,
-    p,
-    strong {
+    p {
       color: var(--global-warning-block-text);
     }
 
@@ -114,10 +107,7 @@ blockquote {
     border-color: var(--global-danger-block);
     background-color: var(--global-danger-block-bg);
 
-    em,
-    li,
-    p,
-    strong {
+    p {
       color: var(--global-danger-block-text);
     }
 
@@ -311,24 +301,6 @@ ul.task-list input[type="checkbox"] {
     font-size: 1.7rem;
 
     a {
-      img {
-        width: 1.7rem;
-        height: 1.7rem;
-        margin-bottom: 0.5rem;
-        // margin: 0.5rem;
-      }
-
-      svg {
-        width: 1.7rem;
-        height: 1.7rem;
-        margin-bottom: 0.5rem;
-
-        image {
-          width: 1.7rem;
-          height: 1.7rem;
-        }
-      }
-
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
@@ -404,31 +376,12 @@ ul.task-list input[type="checkbox"] {
     font-size: 4rem;
 
     a {
-      img {
-        width: 3.2rem;
-        height: 3.2rem;
-        margin-bottom: 1rem;
-      }
-
-      svg {
-        width: 3.5rem;
-        height: 4rem;
-        margin-bottom: 0.5rem;
-
-        image {
-          width: 3.5rem;
-          height: 3.5rem;
-        }
-      }
-
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
 
       &:hover {
-        text-decoration: none;
-
         i::before {
           color: var(--global-theme-color);
         }
@@ -626,7 +579,6 @@ footer.sticky-bottom {
   .page-item {
     .page-link {
       color: var(--global-text-color);
-      padding: 0.75rem 1.15rem;
 
       &:hover {
         color: $black-color;
@@ -642,12 +594,6 @@ footer.sticky-bottom {
       }
     }
   }
-}
-
-// diff2html - Fix for diff2html line number overflow
-
-.d2h-diff-table {
-  position: relative;
 }
 
 // Distill
@@ -745,7 +691,6 @@ footer.sticky-bottom {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
-          color: var(--global-card-bg-color) !important;
 
           a {
             color: white;
@@ -1350,82 +1295,9 @@ ninja-keys::part(ninja-input-wrapper) {
   color: var(--global-text-color);
 }
 
-figure.cover {
-  display: inline-block;
-  text-align: center;
-  margin: 0.5rem; /* adjust as needed */
-
-  img {
-    vertical-align: bottom;
-  }
-
-  figcaption.abandoned {
-    font-family: monospace;
-    color: #23212d;
-    text-transform: uppercase;
-    background-color: #ee5f5b;
-  }
-
-  figcaption.finished,
-  figcaption.watched {
-    font-family: monospace;
-    color: #23212d;
-    text-transform: uppercase;
-    background-color: #62c462;
-  }
-
-  figcaption.interested {
-    font-family: monospace;
-    color: #23212d;
-    text-transform: uppercase;
-    background-color: #7691db;
-  }
-
-  figcaption.paused {
-    font-family: monospace;
-    color: #23212d;
-    text-transform: uppercase;
-    background-color: #bdac7e;
-  }
-
-  figcaption.queued {
-    font-family: monospace;
-    color: #23212d;
-    text-transform: uppercase;
-    background-color: #9e76b5;
-  }
-
-  figcaption.reading,
-  figcaption.watching {
-    font-family: monospace;
-    color: #23212d;
-    text-transform: uppercase;
-    background-color: #f89406;
-  }
-
-  figcaption.reread,
-  figcaption.rewatch {
-    font-family: monospace;
-    color: #23212d;
-    text-transform: uppercase;
-    background-color: #a6517d;
-  }
-
-  figcaption.uncategorized {
-    font-family: monospace;
-    color: #23212d;
-    text-transform: uppercase;
-    background-color: #b0abb3;
-  }
-
-  /* mouse over link */
-  a.cover-link:hover {
-    color: #23212d !important;
-  }
-}
 
 .math-blocks {
-  counter-reset: definition example lemma claim proposition theorem hint walkthrough proof remark problem solution exercise;
+  counter-reset: definition example lemma claim proposition theorem hint walkthrough proof remark problem solution exercise bogus;
 }
 
 /* Distinct, elegant colors for each block type */
@@ -1682,6 +1554,24 @@ figure.cover {
   font-size: 1.12em;
 }
 
+.bogus-block {
+  counter-increment: bogus;
+  border-left: 5px solid #f1f1f3;
+  background: #f1f1f3;
+  color: #f1f1f3;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(34,34,59,0.07);
+  position: relative;
+}
+.bogus-block .block-title::before {
+  content: "Bogus solution " counter(bogus) ". ";
+  color: #ceced4;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
 /* Anchor Link Icon for all math blocks */
 .definition-block .anchor-link,
 .example-block .anchor-link,
@@ -1696,7 +1586,8 @@ figure.cover {
 .remark-block .anchor-link,
 .problem-block .anchor-link,
 .solution-block .anchor-link,
-.exercise-block .anchor-link {
+.exercise-block .anchor-link,
+.bogus-block .anchor-link {
   float: right;
   font-size: 0.95em;
   color: #bbb;
@@ -1720,7 +1611,8 @@ figure.cover {
 .remark-block:hover .anchor-link,
 .problem-block:hover .anchor-link,
 .solution-block:hover .anchor-link,
-.exercise-block:hover .anchor-link {
+.exercise-block:hover .anchor-link,
+.bogus-block .anchor-link {
   opacity: 1;
   color: #5ab9ea;
 }

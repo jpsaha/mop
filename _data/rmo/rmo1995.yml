@@ -1,0 +1,25 @@
+source:
+    qn: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-1995.pdf
+p3:
+    eg: >
+      (Tournament of Towns, [India RMO 1995 P3]({{ site.data.rmo.rmo1995.source.qn }}), [AoPS](https://artofproblemsolving.com/community/c6h57922p355467))
+      Prove that among any $$ 18 $$ consecutive three digit numbers there is at least one number which
+      is divisible by the sum of its digits. 
+    watru: >
+      - Show that one among any such consecutive integers is divisible by $$ 18 $$.
+      - Prove that its sum of digits, is a multiple of $$ 9 $$, 
+      and conclude that it is equal to one of $$ 9, 18, 27 $$.
+      - Show that the sum of its digits is not $$ 27 $$.
+    soln: >
+      Note that among $$ 18 $$ consecutive three digit numbers, 
+      there is an integer divisible by $$ 18 $$. Denote it by 
+      $$ n = 100a + 10b + c $$ with $$ a, b, c $$ denoting integers lying between $$ 0 $$ and $$ 9 $$.
+      It follows that $$ 9 $$ divides $$ n $$, and hence 
+      $$ 9 $$ divides $$ a + b + c $$.
+      This shows that $$ a+b+c $$ is equal to one of $$ 9, 18, 27 $$. 
+      Note that $$ a + b + c = 27 $$ holds only if $$ n = 999 $$.
+      Since $$ 18 $$ divides $$ n $$, 
+      it follows that 
+      $$ a + b + c \neq 27 $$, 
+      and hence, $$ a + b + c $$ is equal to one of $$ 9, 18 $$.
+      This proves that $$ a + b + c $$ divides $$ n $$.
