@@ -117,16 +117,14 @@
                 {% else %}
                   {% if include.type == 'watru' %}
                     {% details Click here for the spoiler! %}
-                    <br>
                     {% capture myvar %}{{ include.content.watru }}{% endcapture %}
-                    {{ myvar | markdownify }}
+{{ myvar | markdownify }}
                     {% enddetails %}
                   {% else %}
                     {% if include.type == 'pf' %}
                       {% details Click here for the spoiler! %}
-                      <br>
                       {% capture myvar %}{{ include.content.pf }}{% endcapture %}
-                      {{ myvar | markdownify }}
+{{ myvar | markdownify }}
                       {% enddetails %}
                     {% else %}
                       {% if include.type == 'rk' %}
@@ -142,10 +140,9 @@
                             {{ myvar | markdownify }}
                           {% else %}
                             {% if include.type == 'soln' %}
-                              {% details Click here for the spoiler! %}
-                              <br>
                               {% capture myvar %}{{ include.content.soln }}{% endcapture %}
-                              {{ myvar | markdownify }}
+                              {% details Click here for the spoiler! %}
+{{ myvar | markdownify }}
                               {% enddetails %}
                             {% else %}
                               {% if include.type == 'xca' %}
