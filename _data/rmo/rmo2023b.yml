@@ -1,0 +1,26 @@
+source:
+    qn: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/11/NonKV-or-Non-JNV.pdf
+p1:
+    eg: >
+      ([India RMO 2023b P1](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/11/NonKV-or-Non-JNV.pdf), [AoPS](https://artofproblemsolving.com/community/c6h3186902p29056200))
+      Let $$ \mathbb{N} $$ be the set of all positive integers and 
+      \\[
+      S=\left\\{(a, b, c, d) \in \mathbb{N}^4: a^2+b^2+c^2=d^2\right\\}.
+      \\]
+      Find the largest positive integer $$ m $$ such that $$ m $$ divides $$ abcd $$ for all $$ (a, b, c, d) \in S $$.
+    watru: >
+      - Show that $$ (1, 2, 2, 3) $$ lies in $$ S $$, 
+      and deduce that $$ m $$ divides $$ 12 $$.
+
+      - Let $$ (a, b, c, d) $$ be an element of $$ S $$.
+      Show that at least one of $$ a, b, c, d $$ 
+      is divisible by $$ 3 $$, 
+      and at least one of them is even.
+      
+      - Prove that if $$ d $$ is even, then at least one of $$ a, b, c $$ 
+      is even, 
+      and that if $$ d $$ is odd, then at least two of $$ a, b, c $$ are even.
+      
+      - Conclude that $$ m $$ is divisible by $$ 2 \cdot 2 \cdot 3 $$.
+    soln: >
+    

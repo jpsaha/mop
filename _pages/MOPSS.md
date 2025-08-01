@@ -141,7 +141,7 @@ If you (the reader!) are aware of these Olympiads, and would like to prepare for
 >
 >
 > - **What is the procedure to participate in these sessions?**
->   - The participants of [MOPSS 2024](../MOPSS24A/) have been invited to MOPSS 2025. Any other interested student may write an email to <a href="https://jpsaha.github.io/home/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-address-card"></i></a> {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }} (<a href="mailto:{{ site.email }}?subject=[MOPSS]"><i class="fas fa-envelope" style="color:gray"></i> {{ site.email }}</a>) expressing his/her interest.
+>   - The participants of [MOPSS 2024](../MOPSS24A/) have been invited to MOPSS 2025. Any other interested student may write an email to <a href="{{ site.url }}/home/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-address-card"></i></a> {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }} (<a href="mailto:{{ site.email }}?subject=[MOPSS]"><i class="fas fa-envelope" style="color:gray"></i> {{ site.email }}</a>) expressing his/her interest.
 >
 >
 > - **Will there be an online session for MOPSS apart from the in person classroom meetings?**
@@ -166,7 +166,7 @@ If you (the reader!) are aware of these Olympiads, and would like to prepare for
 {: .block-danger }
 
   <!-- * Please refer to [the flyer](../assets/pdf/MOPSS/flyer.pdf) for further information. -->
-  * For more information, you may write to {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }} (<a href="mailto:{{ site.email }}?subject=[MOPSS]"><i class="fas fa-envelope" style="color:gray"></i> {{ site.email }}</a>).
+  * For more information, you may write to <a href="{{ site.url }}/home/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-address-card"></i></a> {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }} (<a href="mailto:{{ site.email }}?subject=[MOPSS]"><i class="fas fa-envelope" style="color:gray"></i> {{ site.email }}</a>).
 
 ## Why math olympiads are a valuable experience for high schoolers
 

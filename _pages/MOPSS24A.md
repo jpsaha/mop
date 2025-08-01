@@ -148,7 +148,7 @@ If you (the reader!) are aware of these Olympiads, and would like to prepare for
 
   * Please refer to [the flyer](../assets/pdf/MOPSS/flyer.pdf) for further information.
   * For more information, you may write to
-    * <a href="https://jpsaha.github.io/home/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-address-card"></i></a> {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }} (<a href="mailto:{{ site.email }}?subject=[MOPSS]">
+    * <a href="{{ site.url }}/home/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-address-card"></i></a> {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }} (<a href="mailto:{{ site.email }}?subject=[MOPSS]">
       <i class="fas fa-envelope" style="color:gray"></i> {{ site.email }}</a>),
     * <a href="https://sites.google.com/site/kartickmath/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-address-card"></i></a> Kartick Adhikari (<a href="mailto:{{ site.email1 }}?subject=[MOPSS]">
       <i class="fas fa-envelope" style="color:gray"></i> {{ site.email1 }}</a>),
