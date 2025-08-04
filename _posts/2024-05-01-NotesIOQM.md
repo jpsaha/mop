@@ -16,9 +16,6 @@ mermaid:
 ---
 
 {% capture jlink %}{% include md/past/ioqm.md %}{% endcapture %}
-
-|    Year     |    Question paper,    <br>           Answer keys            |    AoPS            |    Discussion            |
-| :------------: | :------------: | :------------: | :------------: |
 {{ jlink }}
 
 {% capture content %}{% include md/mostages/stages2526.md %}{% endcapture %}
