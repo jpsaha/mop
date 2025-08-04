@@ -23,9 +23,19 @@ mermaid:
 
 {% capture jlink %}{% include md/past/ioqm.md %}{% endcapture %}
 
-|    Year     |    Question paper,    <br>           Answer keys            |    AoPS            |    Discussion            |
-| :------------: | :------------: | :------------: | :------------: |
 {{ jlink }}
+
+{% assign tsts = "prmo" | split: "," %}
+{% for element in tsts %}
+{% assign tst = element %}
+{%- capture mycom -%}{{ tst }}{%- endcapture -%}
+{% capture jlink %}{% include md/pastyd.md %}{% endcapture %}
+
+> ##### Links to Past Question Papers, Previous Years’ Question papers of Pre-RMO
+{{ jlink }}
+
+{% endfor %}
+
 
 {% capture content %}{% include md/mostages/stages2526.md %}{% endcapture %}
 {{ content | markdownify }}

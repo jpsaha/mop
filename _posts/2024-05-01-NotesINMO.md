@@ -10,3 +10,14 @@ giscus_comments: true
 pretty_table: true
 related_posts: false
 ---
+
+{% assign tsts = "inmo" | split: "," %}
+{% for element in tsts %}
+{% assign tst = element %}
+{%- capture mycom -%}{{ tst }}{%- endcapture -%}
+{% capture jlink %}{% include md/pastyd.md %}{% endcapture %}
+
+> ##### Links to Past Question Papers, Previous Years’ Question papers of {{ mycom | upcase }}
+{{ jlink }}
+
+{% endfor %}
