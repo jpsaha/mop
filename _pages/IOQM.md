@@ -2,7 +2,7 @@
 layout: page
 permalink: /IOQM/
 title: IOQM
-description: Indian Olympiad Qualifier in Mathematics. Links to Past Question Papers of IOQM, Answer keys. Hints, Walkthroughs, Discussions.
+description: Indian Olympiad Qualifier in Mathematics. Links to Past Question Papers of IOQM, Answer keys. Hints, Walkthroughs, Discussions, Solutions in pdf.
 nav: true
 nav_order: 3
 lnmo: true
@@ -19,6 +19,9 @@ mermaid:
 >
 {: .block-tip }
 
+{% capture ppsrc %}{% include md/pastsrc.md %}{% endcapture %}
+{{ ppsrc | markdownify }}
+
 > ##### Questions, Answers, Problems, Solutions, Discussions, Walkthroughs, Hints, IOQM
 
 {% capture jlink %}{% include md/past/ioqm.md %}{% endcapture %}
@@ -32,6 +35,7 @@ mermaid:
 {% capture jlink %}{% include md/pastyd.md %}{% endcapture %}
 
 > ##### Links to Past Question Papers, Previous Years’ Question papers of Pre-RMO
+{% if mycom != 'ioqm' %}{: .block-tip }{% endif %}
 {{ jlink }}
 
 {% endfor %}

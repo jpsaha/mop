@@ -22,5 +22,8 @@ related_posts: false
 {% capture lnmo %}{% include lnmo/lnmoall.md %}{% endcapture %}
 {{ lnmo | markdownify }}
 
+{% capture ppsrc %}{% include md/pastsrc.md %}{% endcapture %}
+{{ ppsrc | markdownify }}
+
 {% capture pp %}{% include md/past.md %}{% endcapture %}
 {{ pp | markdownify }}

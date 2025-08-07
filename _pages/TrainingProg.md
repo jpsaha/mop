@@ -143,9 +143,9 @@ is a British mathematician. He has been the [leader of the UK IMO team](https://
   * There are weekly olympiad mathematics sessions on each Saturday and Sunday. Through these classes, a wide range of olympiad mathematical topics are covered that are required for RMO and INMO preparation in each of Combinatorics, Geometry, Number Theory and Algebra, starting from the basics and building up to several advanced topics over the course of the year. [This page](https://sites.google.com/view/online-math-club/overview?authuser=0) contains further details. 
 
 * In [an interview with the Times of India](https://timesofindia.indiatimes.com/life-style/parenting/moments/rushil-mathur-3-time-math-olympiad-awardee-on-how-to-become-a-maths-genius/articleshow/111488430.cms), [Rushil Mathur](https://www.imo-official.org/participant_r.aspx?id=34562) remarked the following.
-  > Online Math Club is a great online forum with a wide range of classes available online publicly on their YouTube channel.
+  > Online Math Club is a great online forum with a wide range of classes available online publicly on their <i class="fa-brands fa-youtube"></i> YouTube channel.
 * [Blog](https://www.omath.club/)
-* On [YouTube](https://www.youtube.com/@omath)
+* On [<i class="fa-brands fa-youtube"></i> YouTube](https://www.youtube.com/@omath)
   * An [interview](https://www.youtube.com/watch?v=OwZ8nx54a20) with the [Indian IMO team 2022](https://www.imo-official.org/team_r.aspx?code=IND&year=2022)
   * An [interview](https://www.youtube.com/watch?v=HSuWLw4l_yY) with the [Indian IMO team 2023](https://www.imo-official.org/team_r.aspx?code=IND&year=2023)
   * An [interview](https://www.youtube.com/watch?v=sMadzwi1UQE) with the [Indian IMO team 2024](https://www.imo-official.org/team_r.aspx?code=IND&year=2024)

@@ -2,7 +2,7 @@
 layout: post
 title: Warm Up
 date: 2024-05-15 08:57:00-0400
-description: Warm up problems on Combinatorics. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.
+description: Warm up problems on Combinatorics. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.
 tags: combinatorics Pre-RMO IOQM RMO INMO MathOlympiad Notes Handouts LectureNotes
 categories: combinatorics
 jpdf: WarmUp

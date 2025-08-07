@@ -2,7 +2,7 @@
 layout: post
 title: Finite differences
 date: 2025-03-06 08:57:00-0400
-description: Finite differences. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.
+description: Finite differences. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.
 tags: algebra Pre-RMO IOQM RMO INMO MathOlympiad Notes Handouts LectureNotes
 categories: algebra
 jpdf: FiniteDiff

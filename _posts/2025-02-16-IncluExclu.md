@@ -2,7 +2,7 @@
 layout: post
 title: Inclusion-exclusion principle
 date: 2025-02-16 08:57:00-0400
-description: Inclusion-exclusion principle. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.
+description: Inclusion-exclusion principle. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.
 tags: combinatorics Pre-RMO IOQM RMO INMO MathOlympiad Notes Handouts LectureNotes
 categories: combinatorics
 jpdf: IncluExclu

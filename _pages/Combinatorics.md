@@ -13,15 +13,6 @@ giscus_comments: true
 pretty_table: true
 ---
 
-> ##### Practice problems, Problem Set, Combinatorics, Questions, Answers, Problems, Solutions, Discussions, Walkthroughs, Hints, IOQM, RMO, INMO, Study material, Resources, Olympiad Combinatorics Notes, Olympiad Combinatorics Problems
-
-> ##### **Lecture notes on Combinatorics (for Math Olympiad --- IOQM, RMO, INMO)**
-{: .block-tip }
-
-> **Click on the <span style="color: #42b983"><i class="fa-solid fa-file-pdf fa-2x"></i></span> icons below to download.**
-
-{: .block-danger }
-
 <!-- 
 {% capture comb %}{% include md/no/nocomb.md %}{% endcapture %}
 
@@ -66,4 +57,4 @@ pretty_table: true
 - Problem-solving strategies by Engel.
 - [OTIS Excerpts](https://web.evanchen.cc/excerpts.html) by [Evan Chen](https://web.evanchen.cc/).
 - Olympiad Combinatorics, by [Pranav A. Sriram](https://x.com/PranavSriram1). Its chapters are available in posts \#1, \#11, \#49 of [this page](https://artofproblemsolving.com/community/c6h601134). There is a [forum](https://artofproblemsolving.com/community/c575226_olympiad_combinatorics_pranav_sriram) for solutions of the problems which are not in the [contest collections](https://artofproblemsolving.com/community/c13_contests) but from this book.
-- A [video](https://www.youtube.com/watch?v=g9UnwiW2e50) by [Zlatko Salko Lagumdžija](https://www.imo-official.org/participant_r.aspx?id=25889).
+- A [<i class="fa-brands fa-youtube"></i> video](https://www.youtube.com/watch?v=g9UnwiW2e50) by [Zlatko Salko Lagumdžija](https://www.imo-official.org/participant_r.aspx?id=25889).

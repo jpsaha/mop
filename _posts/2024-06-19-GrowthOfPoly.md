@@ -2,7 +2,7 @@
 layout: post
 title: Growth of Polynomials
 date: 2024-06-19 08:57:00-0400
-description: Growth of Polynomials. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.
+description: Growth of Polynomials. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.
 tags: algebra Pre-RMO IOQM RMO INMO MathOlympiad Notes Handouts LectureNotes
 categories: algebra
 jpdf: PolyGrowth

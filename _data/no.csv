@@ -39,13 +39,13 @@ Combinatorics,Counting via bijections,2025/CountBijec,CountBijec
 Combinatorics,Counting the complement,2025/CountComple,CountComple
 Combinatorics,Counting in two different ways,2025/CountTwoDiff,CountTwoDiff
 Combinatorics,Generating functions,2025/GenFun,GenFun
-Number Theory,Induction,2025/IndNumber Theory,IndNT
+Number Theory,Induction,2025/IndNT,IndNT
 Number Theory,Quadratic polynomials,2025/Quad,Quad
 Number Theory,Cubic polynomials,2025/Cubic,Cubic
 Number Theory,Using identities,2025/Iden,Iden
 Number Theory,Binomial coefficients,2025/BinCo,BinCo
 Number Theory,Congruences,2025/Cong,Cong
-Number Theory,System of equations,2025/SysEqnNumber Theory,SysEqnNT
+Number Theory,System of equations,2025/SysEqnNT,SysEqnNT
 Number Theory,Chinese remainder theorem,2025/CRT,CRT
 Number Theory,Gauss's lemma,2025/Gauss,Gauss
 Number Theory,Orders,2025/Orders,Orders

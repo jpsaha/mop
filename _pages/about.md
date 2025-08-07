@@ -28,7 +28,7 @@ mermaid:
 
 > #### Practice problems, Problem Set, Questions, Answers, Problems, Solutions, Discussions, Walkthroughs, Hints, IOQM, RMO, INMO, Study material, Resources, Olympiad Notes, Olympiad Problems
 
-> #### Study materials for Math Olympiad (IOQM, RMO, INMO)
+> #### Study materials for Math Olympiad in pdf (IOQM, RMO, INMO)
 
 {% capture lnmo %}{% include lnmo/lnmoall.md %}{% endcapture %}
 {{ lnmo | markdownify }}

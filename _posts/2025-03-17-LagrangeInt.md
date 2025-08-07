@@ -2,7 +2,7 @@
 layout: post
 title: Lagrange interpolation
 date: 2025-03-17 08:57:00-0400
-description: Lagrange interpolation. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.
+description: Lagrange interpolation. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.
 tags: algebra Pre-RMO IOQM RMO INMO MathOlympiad Notes Handouts LectureNotes
 categories: algebra
 jpdf: LagrangeInt

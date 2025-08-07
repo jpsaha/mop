@@ -131,7 +131,7 @@ is a graduate student at MIT and a math olympiad [coach](https://web.evanchen.cc
     * [Anushka Aggarwal](https://www.egmo.org/people/person1429/), participated in EGMO in 2019 (B), 2020 (B), 2022 (B). 
 -->
 * Evan Chen [runs](https://web.evanchen.cc/videos.html) a [Twitch stream](https://www.twitch.tv/vEnhance), where he primarily live-solves math problems.
-  * The past broadcasts are on [YouTube](https://www.youtube.com/c/vEnhance). 
+  * The past broadcasts are on [<i class="fa-brands fa-youtube"></i> YouTube](https://www.youtube.com/c/vEnhance). 
 * He also [maintains](https://web.evanchen.cc/discord.html) a [Discord server](https://discord.gg/KzFXYwqRFX). 
 
 ##### Some of the posts from his blog [Power Overwhelming](https://blog.evanchen.cc/)

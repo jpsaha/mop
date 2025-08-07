@@ -18,6 +18,9 @@ mermaid:
 {% capture content %}{% include md/mostages/stages2526.md %}{% endcapture %}
 {{ content | markdownify }}
 
+{% capture ppsrc %}{% include md/pastsrc.md %}{% endcapture %}
+{{ ppsrc | markdownify }}
+
 {% assign tsts = "ioqm" | split: "," %}
 {% for element in tsts %}
 {% assign tst = element %}
@@ -29,7 +32,6 @@ mermaid:
 {{ jlink }}
 
 {% endfor %}
-
 
 {% assign tsts = "prmo" | split: "," %}
 {% for element in tsts %}
@@ -43,9 +45,6 @@ mermaid:
 
 {% endfor %}
 
-
-
 <!-- 
 {% capture jlink %}{% include md/past/ioqm.md %}{% endcapture %}
 {{ jlink }} -->
-

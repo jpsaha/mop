@@ -55,7 +55,7 @@ pretty_table: true
 > - Geometry ([Srikanth B. Pai](https://srikanthbpai.github.io/))
 >   - [Problem set 1](../assets/pdf/INMOTC/INMOTC25MPgeo1.pdf)
 >   - [Problem set 2](../assets/pdf/INMOTC/INMOTC25MPgeo2.pdf)
->   - Several lectures on Geometry by Srikanth are available on [this YouTube channel](https://www.youtube.com/channel/UCte6PsCjmIJXqVOgSEmO_vg?app=desktop).
+>   - Several lectures on Geometry by Srikanth are available on [<i class="fa-brands fa-youtube"></i>](https://www.youtube.com/channel/UCte6PsCjmIJXqVOgSEmO_vg?app=desktop).
 >
 > - Number Theory ([Mainak Ghosh](https://sites.google.com/view/mainak-ghosh-math/))
 >   - [Order and primitive roots](../assets/pdf/INMOTC/INMOTC25MPntPrimRoot.pdf) by [Rijul Saini](https://www.imo-official.org/participant_r.aspx?id=21714)
