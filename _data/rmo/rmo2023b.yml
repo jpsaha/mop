@@ -1,8 +1,14 @@
 source:
+    yr: 2023b
     qn: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/11/NonKV-or-Non-JNV.pdf
+    aops: https://artofproblemsolving.com/community/c3604832_2023_india_regional_mathematical_olympiad
 p1:
+    nom: P1
+    aops: https://artofproblemsolving.com/community/c6h3186902p29056200
+    supp: 
+      - name: 
+        url: 
     eg: >
-      ([India RMO 2023b P1](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/11/NonKV-or-Non-JNV.pdf), [AoPS](https://artofproblemsolving.com/community/c6h3186902p29056200))
       Let $$ \mathbb{N} $$ be the set of all positive integers and 
       \\[
       S=\left\\{(a, b, c, d) \in \mathbb{N}^4: a^2+b^2+c^2=d^2\right\\}.
@@ -23,4 +29,130 @@ p1:
       
       - Conclude that $$ m $$ is divisible by $$ 2 \cdot 2 \cdot 3 $$.
     soln: >
+
+p6: 
+    nom: P6
+    aops: https://artofproblemsolving.com/community/c6h3186907p29056215
+    supp: 
+      - name: 
+        url: 
+    eg: >
+      Consider a set of $$ 16 $$ points arranged in a $$ 4 \times 4 $$ square grid formation. 
+      Prove that if any $$ 7 $$ of these points are coloured blue, 
+      then there exists an isosceles right-angled triangle whose vertices are all blue.
+    img: 
+      - path: MOPSS25Aug9-5.svg
+        zoomable: true
+      - path: MOPSS25Aug9-6.svg
+        zoomable: true
+    watru: >
+      - Show that if the small square (as in Fig. 1) 
+      does not contain a blue point, 
+      then we are done.
+      
+      - It remains to consider the case when the small square 
+      (as in Fig. 1) contains 
+      at least one blue point.
+      
+      - Rotating the configuration about the center of the small square
+      (if necessary), assume that the top-left vertex of the small square 
+      (as in Fig. 1)
+      is blue. 
+      
+      - Prove that the gray square contains at most three blue points. 
+
+        - Consider the case when at least two blue points 
+        lie on the bigger dashed circle.
+        Show that 
+        the smaller dashed circle does not contain any blue point, 
+        in this case.
+        Hence, the gray square contains at most three blue points.
+        
+        - Similarly, 
+        if the smaller dashed circle contains at least two blue points, 
+        then the gray square (as in Fig. 2) 
+        contains at most three blue points.
+
+      - It suffices to consider that each one of the red, purple, and green 
+      $$ L $$-shapes, has at most one end-point which is blue (otherwise, 
+      we are done).
+      
+      - Use the above to show that the bottom-right point
+      (as in Fig. 2) is blue.
+      
+      - Consider the point at the bottom-right corner, 
+      and the center of the gray square,
+      and a blue end-point of an $$ L $$-shape,
+      to show that these three points form the vertices of
+      an isosceles triangle having the required properties.
     
+    soln: >
+      Note that the $$ 16 $$ points are the vertices 
+      of the four squares as in Fig. 1. 
+      If no vertex of the small square is blue, 
+      then by the pigeonhole principle, 
+      at least one of the remaining three squares
+      has at least three blue vertices, 
+      and hence 
+      there exists an isosceles right-angled triangle
+      with blue vertices. 
+
+      Let us assume that the small square 
+      (as in Fig. 1) has a blue vertex.
+      Rotating the configuration about the center of the small square 
+      (if necessary), we may and do assume that the top-left vertex of the 
+      small square is blue. 
+      Henceforth, on the contrary, 
+      let us assume that there are no isosceles right-angled triangles
+      with blue vertices.
+
+      > **Claim.** The gray square (as in Fig. 1) 
+          contains at most three blue points. 
+          \
+          \
+         *Proof of the Claim.*  Note that the points within the gray square
+          lies on the two dashed circles 
+          (as in Fig. 1).
+          Therefore, 
+          to prove the Claim, it suffices to show that
+          if one of the dashed circles
+          (as in Fig. 1)
+          contains at least two blue points,
+          then the other dashed circle does not contain any blue point.\
+          \
+          If at least two blue points lie on 
+          the bigger dashed circle, 
+          then using the assumption, 
+          it follows that no more blue points lies on it, 
+          and hence these two blue points lie 
+          along a diameter. 
+          It follows that no blue point lies on the other dashed circle.
+          \
+          \
+          If at least two blue points lie 
+          on the smaller dashed circle, 
+          then using a similar argument, it follows that 
+          no blue point lies on the bigger dashed circle. 
+          \
+          \
+          The Claim follows. 
+
+      Note that if both the end-points of 
+      one of the red, purple, and green $$ L $$-shapes
+      (as in Fig. 2)
+      are blue, then these points together with 
+      the center of gray square form 
+      the vertices of an isosceles right-angled triangle, 
+      contradicting the assumption.
+      Hence, each one of these three $$ L $$-shapes 
+      has at most one end-point which is blue. 
+      Since there are $$ 7 $$ blue points,
+      using the Claim, it follows that the 
+      bottom-right point is blue. 
+      Note that the center of the gray square, 
+      the bottom-right point, 
+      and 
+      a blue end-point of the *purple* $$ L $$-shape, 
+      form the vertices of 
+      a triangle having the required properties.    
+        

@@ -1,0 +1,140 @@
+source:
+    yr: 2018
+    qn: https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2018/05/solutions-crmo-18.pdf
+    aops: https://artofproblemsolving.com/community/c749890_2018_india_regional_mathematical_olympiad
+p4:
+    nom: P4
+    aops: https://artofproblemsolving.com/community/c6h1719236p11113674
+    supp: 
+      - name: 
+        url: 
+    eg: >
+      Let $$ E $$ denote the set of $$ 25 $$ points $$ (m, n) $$ in the $$ xy $$-plane, 
+      where $$ m, n $$ are natural numbers, $$ 1 \leq m \leq 5, 1 \leq n \leq 5 $$. 
+      Suppose the points of $$ E $$ are arbitrarily coloured using two colours, red and blue. 
+      Show that there always exist four points in the set $$ E $$ of the form 
+      $$ (a,b), (a+k,b), (a+k,b+k), (a,b+k) $$ for some positive integer $$ k $$ 
+      such that at least three of these four points have the same colour. 
+      (That is, there always exist four points in the set $$ E $$ which form 
+      the vertices of a square and having at least three points of the same colour.)
+    img: 
+      - path: MOPSS25Aug9-4.svg
+        zoomable: true
+    watru: >
+      -
+      Assume that the conclusion is false, 
+      and 
+      by interchanging the colors (if necessary), assume
+      that there are more red points than the blue ones. 
+      
+      - 
+      Show that one of the four corners is red, 
+      and assume without loss of generality 
+      that the point $$ E $$ is red.
+      
+      -
+      Considering the number of red points in each of the 
+      sets $$ \{A, A'\} $$, $$ \{B, B'\} $$, $$ \{C, C'\} $$, $$ \{D, D'\} $$, 
+      prove that 
+      these four sets together contain at most $$ 4 $$ red points,
+      and conclude that 
+      the green square
+      contains at least $$ 8 $$ red points.
+      
+      -
+      Consider the blue squares in 
+      the green square, to show that 
+      the green square contains exactly $$ 8 $$ red points.
+      
+      - 
+      Conclude that there are exactly $$ 13 $$ red points,
+      and each of the sets $$ \{A, A'\} $$, $$ \{B, B'\} $$, $$ \{C, C'\} $$, $$ \{D, D'\} $$
+      contains exactly one red point, 
+      and the green square contains exactly $$ 8 $$ red points.
+      
+      -
+      For each point on the dashed diagonal,
+      consider the square having this point and $$ E $$ as its vertices,
+      to show that the points on the dashed diagonal are blue.
+      
+      -
+      Note that each point within the green square
+      lying outside the dashed diagonal,
+      is a vertex of a square having 
+      two of its remaining vertices on the dashed diagonal.
+      Conclude that each such point is red.
+      
+      -
+      Obtain a contradiction 
+      to conclude that the assmption is false.
+    soln: >
+      On the contrary, let us assume that 
+      there is no axes-parallel square having 
+      at least three vertices of the same color.
+
+      Note that at least $$ 13 $$ among those 
+      $$ 25 $$ points are of the same color. 
+      Without loss of generality, 
+      assume that those are red. 
+      By our hypothesis, it follows that 
+      among the four vertices at the corners, 
+      there is at least one red vertex. 
+      Without loss of generality[^rmo2018ap4],
+      let us assume that the bottom-right vertex is red, 
+      and denote this vertex by $$ E $$ (as in 
+      Fig. 1).
+
+      Note that each of the sets 
+      $$ \{A, A'\}, \{B, B'\}, \{C, C'\}, \{D, D'\} $$ 
+      (as in Fig. 1)
+      contains at most one red point, 
+      otherwise, we can form an axes-parallel square with 
+      at least three vertices of the same color. 
+      Consequently, 
+      the green square (as in 
+      Fig. 1) contains at least 
+      $$ 13 - 5 = 8 $$ red points. 
+
+      If the green square contains at least $$ 9 $$ 
+      red points, then at least one of the four blue
+      squares 
+      (as in Fig. 1) 
+      contains at least three red points, 
+      which is not the case by our hypothesis. 
+      Hence, the green square contains exactly $$ 8 $$ 
+      red points. 
+      Consequently, 
+      there are precisely $$ 13 $$ red points 
+      among the $$ 25 $$ points,
+      and each of the sets 
+      $$ \{A, A'\}, \{B, B'\}, \{C, C'\}, \{D, D'\} $$ 
+      contains exactly one red point.
+
+      For any given point on the dashed diagonal
+      (as in Fig. 1),
+      consider the square having this point and $$ E $$ as 
+      the endpoints of one of its diagonals.
+      Note that one of the other two vertices of this square
+      is red.
+      By our hypothesis, it follows that 
+      all the points on the gray diagonal (as in 
+      Fig. 1)
+      are blue. 
+
+      Note that each point within the green square
+      lying outside the dashed diagonal,
+      is a vertex of a square having 
+      two of its remaining vertices on the dashed diagonal.
+      This shows that all the points within the green square, 
+      lying outside the gray diagonal, are red. 
+      Hence, there exists an axes-parallel square, 
+      all whose vertices are red. 
+      This contradicts our hypothesis,
+      and hence, it follows that 
+      there exists an axes-parallel square having 
+      at least three vertices of the same color.
+
+
+      [^rmo2018ap4]: Convince 
+      yourself that there is *indeed no loss of generality* in assuming so.
+        

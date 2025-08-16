@@ -1,8 +1,14 @@
 source: 
+    yr: 2004
     qn: https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo-2004.pdf
+    aops: https://artofproblemsolving.com/community/c4985_2004_india_regional_mathematical_olympiad
 p6:
+    nom: P6
+    aops: https://artofproblemsolving.com/community/c6h77020p442333
+    supp: 
+      - name: Australian MO 1982
+        url: 
     eg: >
-        (Australian MO 1982, [India RMO 2004 P6](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo-2004.pdf), [AoPS](https://artofproblemsolving.com/community/c6h77020p442333))
         Let $$ (p_1, p_2, p_3, \dots , p_n, \dots) $$ be a sequence of primes,
         defined by $$ p_1 = 2 $$ and for $$ n \geq 1 $$, $$ p_{n+1} $$ is the 
         largest prime factor of $$ p_1p_2 \cdots p_n + 1 $$. 

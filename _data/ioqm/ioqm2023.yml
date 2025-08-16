@@ -1,0 +1,667 @@
+source:
+    yr: 2023
+    qn: https://www.mtai.org.in/wp-content/uploads/2023/09/IOQM_Sep_2023_Question-paper-with-answer-key.pdf
+    aops: https://artofproblemsolving.com/community/c3531959_202324_ioqm_india
+
+p1:
+    aops: https://artofproblemsolving.com/community/c4h3148209p28587825
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p2: 
+    aops: https://artofproblemsolving.com/community/c4h3148210p28587829
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p3:
+    aops: https://artofproblemsolving.com/community/c4h3148211p28587833
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p4:
+    aops: https://artofproblemsolving.com/community/c4h3148212p28587835
+    supp: 
+      - name: 
+        url:
+    eg: >
+      Let $$ x, y $$ be positive integers such that
+      \\[
+          x^4 = (x - 1) (y^3 - 23) - 1.
+      \\]
+      Find the maximum possible value of $$ x + y $$.
+    watru: >
+      - Note that $$ x \neq 1 $$ and $$ x - 1 $$ divides $$ 2 $$. It follows that $$ x = 2 $$ or $$ x = 3 $$. 
+      
+      - If $$ x = 2 $$, then $$ y^3 = 23 + 2^4 + 1 = 40 $$, which is impossible since $$ y $$ is an integer. 
+      
+      - If $$ x = 3 $$, then $$ y^3 = 23 + \frac 12 (3^4 + 1) = 23 + 41 = 64 $$, which gives $$ y = 4 $$.
+      
+      - It follows that $$ x + y = 7 $$. 
+    soln: >
+
+
+p5:
+    aops: https://artofproblemsolving.com/community/c4h3148213p28587836
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+
+
+p6: 
+    aops: https://artofproblemsolving.com/community/c4h3148214p28587841
+    supp: 
+      - name: 
+        url:
+    eg: >
+      Let $$ X $$ be the set of all even positive integers $$ n $$ such that 
+      the measure of the angle subtended by a side at the center of some regular polygon is $$ n $$ degrees. 
+      Find the number of elements in $$ X $$. 
+    watru: >
+      - Let $$ r\geq 3 $$ be an integer and consider a regular $$ r $$-gon. 
+        Note that $$ 360/r $$ is even 
+        if and only if $$ r $$ is equal to one of 
+
+        \\[
+            3, 4, 5, 6, 9, 10, 12, 15, 18, 20, 24, 36, 45, 60, 120, 360
+        .
+        \\]
+
+        In other words, there are precisely $$ 16 $$ positive integers $$ r \geq 3 $$ such that 
+        dividing $$ 360 $$ by $$ r $$ yields an even number. 
+
+      - It follows that the number of elements of $$ X $$ is equal to $$ 16 $$. 
+    
+    soln: >
+
+p7:
+    aops: https://artofproblemsolving.com/community/c4h3148215p28587842
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p8: 
+    aops: https://artofproblemsolving.com/community/c4h3148216p28587844
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p9:
+    aops: https://artofproblemsolving.com/community/c4h3148217p28587845
+    supp: 
+      - name: 
+        url:
+    eg: >
+      Find the number of triples $$ (a, b, c) $$ of positive integers such that
+
+      - $$ ab $$ is a prime,
+
+      - $$ bc $$ is a product of two primes, 
+
+      - $$ abc $$ is not divisible by square of any prime and
+
+      - $$ abc \leq 30 $$.
+    watru: >
+      - Suppose $$ (a, b, c) $$ is a pair satisfying the above conditions. 
+      
+      - Since $$ ab $$ is a prime, it follows that one of $$ a $$, $$ b $$ is equal to $$ 1 $$,
+      and the remaining one is a prime. 
+      
+      - If $$ a = 1 $$, then $$ b, c $$ are distinct primes. 
+      
+      - If $$ b = 1 $$, then $$ c $$ is the product of two distinct primes which are 
+      not equal to $$ a $$. 
+      
+      - This shows that $$ (a, b, c) $$ is equal to 
+      one of
+      
+
+      $$
+      \begin{align*}
+        & 
+        (1, 2, 3), 
+        (1, 2, 5), 
+        (1, 2, 7), 
+        (1, 2, 11), 
+        (1, 2, 13), \\
+        & 
+        (1, 3, 2), 
+        (1, 3, 5), 
+        (1, 3, 7), \\
+        & 
+        (1, 5, 2), 
+        (1, 5, 3), \\
+        & 
+        (1, 7, 2), 
+        (1, 7, 3), \\
+        & 
+        (1, 11, 2), \\
+        & 
+        (1, 13, 2), \\
+        & 
+        (2, 1, 3 \cdot 5), 
+        (3, 1, 2 \cdot 5), 
+        (5, 1, 2 \cdot 3).
+      \end{align*}
+      $$
+
+
+      - Hence, the number of triples satisfying the above conditions is at most $$ 17 $$. 
+      
+      - Since any of the above triples does satisfy the given conditions, it follows 
+      that the number of triples satisfying the given conditions is equal to $$ 17 $$. 
+    soln: >
+      - 
+
+
+p10:
+    aops: https://artofproblemsolving.com/community/c4h3148220p28587850
+    supp: 
+      - name: 
+        url:
+    eg: >
+      The sequence $$ \langle a_n \rangle_{n\geq 0} $$ 
+      is defined by $$ a_0 = 1, a_1 = -4 $$ and 
+
+      \\[
+          a_{n + 2} = - 4 a_{n+1} - 7a_n
+      \\]
+      
+      for $$ n \geq 0 $$. 
+      Find the number of positive integer divisors of 
+      $$ a_{50}^2 - a_{49}a_{51} $$. 
+
+    watru: >
+      - Compute the first few terms of the sequence to note that 
+      
+      
+      $$
+      \begin{align*}
+          a_0 & = 1, \\
+          a_1 & = - 4,\\
+          a_2 & = 9, \\
+          a_3 & = -8, \\
+          a_4 & = - 31,
+      \end{align*}
+      $$
+
+
+      which gives 
+
+
+      $$
+      \begin{align*}
+        a_1^2 - a_0a_2 & = 16  - 9 \\
+          & = 7,\\
+        a_2^2 - a_1a_3 & = 81 - 32 \\
+          & = 49,\\
+        a_3^2 - a_2a_4
+          & = 64 + 279 \\
+          & = 343. 
+      \end{align*}
+      $$
+
+
+      This may suggest that
+
+
+      $$
+      a_n^2 - a_{n-1}a_{n+1}
+      = 7^n
+      $$
+
+
+      holds for any integer $$ n\geq 1 $$. 
+
+      
+      - Indeed, 
+      it is clear for $$ n = 1 $$. 
+      Assuming that 
+
+      \\[
+      a_n^2 - a_{n-1}a_{n+1}
+      = 7^n
+      \\]
+
+      holds for some integer $$ n\geq 1 $$, 
+      note that 
+
+
+      $$
+      \begin{align*}
+            & a_{n+1}^2 - a_{n} a_{n+2} \\
+            & = a_{n+1}^2 - a_n (-4a_{n+1} - 7a_n)\\
+            & = a_{n+1}^2 + 4a_n a_{n+1} + 7 a_n^2 \\
+            & = a_{n+1}^2 + 4a_n a_{n+1} + 7 a_{n-1}a_{n+1} + 7^{n+1} \\
+            & = a_{n+1} (a_{n+1} + 4a_n + 7a_{n-1}) + 7^{n+1}\\
+            & = 7^{n+1}.
+      \end{align*}
+      $$
+
+
+      This proves that
+
+      \\[
+      a_n^2 - a_{n-1}a_{n+1}
+      = 7^n
+      \\]
+
+      holds for any integer $$ n\geq 1 $$.  
+
+      -
+      Consequently, 
+
+      \\[
+      a_{50}^2 - a_{49}a_{51} 
+      = 
+      7^{50},
+      \\]
+
+      whose number of positive integer divisors is equal to 
+      $$ 51 $$. 
+    soln: >
+      - 
+
+
+p11:
+    aops: https://artofproblemsolving.com/community/c4h3148221p28587853
+    supp: 
+      - name: 
+        url:
+    eg: >
+      A positive integer $$ m $$ has the property that $$ m^2 $$ 
+      is expressible in the form $$ 4n^2 - 5n + 16 $$ 
+      where $$ n $$ is an integer (of any sign). 
+      Find the maximum possible value of $$ \lvert m - n \rvert $$.
+    watru: >
+      - Let $$ m,n $$ be integers satisfying 
+      $$ m^2 = 4n^2 - 5n + 16 $$, or equivalently, 
+
+      \\[
+      4n^2 - 5n + (16 - m^2) = 0.
+      \\]
+
+      - 
+      Since $$ n $$ is an integer, the discriminant of the 
+      quadratic polynomial $$ 4n^2 - 5n + (16 - m^2) $$ 
+      in $$ n $$ is a perfect square, that is, 
+      there exists an integer $$ \ell $$ such that 
+
+      \\[
+      25 - 16 (16 - m^2) = \ell^2,
+      \\]
+
+      or equivalently, 
+      $$ 16m^2 - \ell^2 = 231 $$, which gives 
+
+      \\[(4m - \ell)(4m + \ell) = 3 \cdot 7 \cdot 11.\\]
+
+      - 
+      Note that $$ 4m-\ell, 4m + \ell $$ are odd and hence congruent to 
+      $$ 1, -1 $$ modulo $$ 4 $$ (in some order). 
+      Also note that 
+      $$ 4m - \ell < 4m + \ell $$ holds. 
+
+      -
+      This shows that $$ (4m-\ell, 4m + \ell) $$ is equal to 
+      one of 
+
+      \\[
+      (1, 3\cdot 7 \cdot 11), 
+      (3, 77), (7, 33), (11, 21),
+      \\]
+
+      and consequently, 
+      $$ 8m = 232, 80, 40, 32 $$, 
+      which yields 
+      $$ m = 29, 10, 5, 4 $$. 
+
+      - 
+      If $$ m = 29 $$, 
+      then 
+      $$ 4n^2 - 5n - 825 = 0 $$, 
+      which gives $$ n = 15 $$. 
+
+      - 
+      If $$ m = 10 $$, then 
+      $$ 4n^2 - 5n  - 84 = 0 $$
+      holds, 
+      which gives $$ n = - 4 $$.
+
+      - 
+      If $$ m = 5 $$, 
+      then 
+      $$ 4n^2 - 5n - 9 = 0 $$ holds, 
+      implying
+      $$ n = -1 $$. 
+
+      - 
+      If $$ m = 4 $$, then  
+      $$ n = 0 $$. 
+
+      - 
+      Conclude that the maximum possible value of $$ \lvert m - n \rvert $$ is  
+      equal to $$ 14 $$. 
+    
+    soln: >
+      - 
+
+
+
+p12:
+    aops: https://artofproblemsolving.com/community/c4h3148224p28587857
+    supp: 
+      - name: 
+        url:
+    eg: >
+      Let $$ P(x) = x^3 + ax^2 + bx + c $$ be a polynomial where $$ a $$, $$ b $$, $$ c $$ 
+      are integers and $$ c $$ is odd. 
+      Let $$ p_i $$ be the value of $$ P(x) $$ at $$ x = i $$. Given that 
+      $$ p_1^3 + p_2^3 + p_3^3 = 3 p_1 p_2 p_3 $$, find the value of $$ p_2 + 2p_1 - 3p_0 $$. 
+    watru: >
+    
+      - 
+      Note that if $$ p_1 + p_2 + p_3 \neq 0 $$, 
+      then using the condition that $$ p_1, p_2, p_3 $$ are real, 
+      it follows that $$ p_1 = p_2 = p_3 $$.  
+
+      - 
+      Note that 
+
+
+      $$
+      \begin{align*}
+      p_1 
+      & = 
+      1 + a + b + c, \\
+      p_2
+      & = 
+      8 + 4a + 2b + c, \\
+      p_3 
+      & = 
+      27 + 9a + 3b + c,
+      \end{align*}
+      $$
+
+
+      which gives that 
+
+      \\[
+      p_1 + p_2 + p_3 
+      = 
+      36 + 14a + 6b + 3c.
+      \\]
+
+      Since $$ c $$ is an odd integer, it follows 
+      that[^ioqm23p12]
+      $$ p_1 + p_2 + p_3 \neq 0 $$. 
+      Consequently, $$ p_1 = p_2 = p_3 $$.  
+
+      -
+      This gives 
+
+      \\[
+      3a + b = -7, 
+      5a + b = -19,
+      \\]
+
+      and hence, $$ a = -6, b = 11 $$. 
+
+      -
+      This gives 
+
+
+      $$
+      \begin{align*}
+      p_2 + 2p_1 - 3p_0 
+      & = 
+      10 + 6a + 4b + 3c - 3c \\
+      & = 
+      18.
+      \end{align*}
+      $$
+
+      
+      [^ioqm23p12]: Since $$ c $$ is odd, it follows that $$ p_2 $$ is odd. 
+      Note that $$ p_1  - p_3 $$ is even (Why? Does it follow that $$ f(1) - f(3) $$ is 
+      divisible by $$ 2 $$ for any polynomial $$ f(x) $$ with integer coefficients?), 
+      and hence, $$ p_1 + p_2 + p_3 $$ is odd.
+    soln: >
+      - 
+
+p13: 
+    aops: https://artofproblemsolving.com/community/c4h3148226p28587862
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p14: 
+    aops: https://artofproblemsolving.com/community/c4h3148229p28587867
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p15:
+    aops: https://artofproblemsolving.com/community/c4h3148233p28587876
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p16:
+    aops: https://artofproblemsolving.com/community/c4h3148234p28587878
+    supp: 
+      - name: ARML 2010 Team Problems P4
+        url: https://services.artofproblemsolving.com/download.php?id=YXR0YWNobWVudHMvYi84LzAwNWQ1ZDMzMmNlZmNhMmRiM2Q3YTg2YmVhZDE5NjFmYmIwYjUz&rn=MjAxMGNvbnRlc3RlbnRpcmVkcmFmdHYxLjQucGRm
+    eg: >
+      The six sides of a convex hexagon $$ A_1 A_2 A_3 A_4 A_5 A_6 $$
+      are colored red. 
+      Each of the diagonals of the hexagon is colored either red or blue. 
+      If $$ N $$ is the number of such colorings such that 
+      every triangle $$ A_iA_jA_k $$, where $$ 1\leq i < j < k \leq 6 $$,
+      has at least one red side, find the sum of the squares of the digits of $$ N $$.
+    img: 
+      - path: MOPSS25Aug9-1.svg
+        zoomable: true
+    watru: >
+      - 
+      The sides of the hexagon has been colored red. 
+      
+      -
+      Note that if $$ A_iA_jA_k $$ is such that some two of its vertices are 
+      consecutive, then it has at least one red side.
+      
+      -
+      If $$ A_iA_jA_k $$ is such that no two of its vertices are consecutive, 
+      then any two of its vertices are exactly one vertex apart.
+      Note that there precisely two such triangles, namely,
+      $$ A_1A_3A_5 $$ and $$ A_2A_4A_6 $$.
+      
+      -
+      Observe that if each of these two triangles have at least one red side, 
+      then the required condition is satisfied.
+      
+      -
+      Moreover, if the required condition is satisfied, 
+      then each of these two triangles has at least one red side.
+      
+      -
+      It follows that $$ N $$ is equal to 
+      the number of colorings of the diagonals of the hexagon
+      using red and blue such that each of the triangles $$ A_1A_2A_3 $$ and $$ A_2A_4A_6 $$ have at least 
+      one red side.
+      
+      -
+      This shows that 
+      
+      \\[
+      N 
+      = 
+      (2^3 - 1)(2^3 - 1)(2^{\binom{6}{2} - 6 - (3 + 3)}) = 7 \cdot 7 \cdot 8 = 392
+      .
+      \\]
+      
+      
+      - 
+      The sum of the squares of the digits of $$ N $$ is 
+      equal to $$ 3^2 + 9^2 + 2^2 = 9 + 81 + 4 = 94 $$.
+
+    soln: >
+      - 
+
+p17: 
+    aops: https://artofproblemsolving.com/community/c4h3148235p28587879
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p18:
+    aops: https://artofproblemsolving.com/community/c4h3148243p28587901
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+
+p19: 
+    aops: https://artofproblemsolving.com/community/c4h3148240p28587892
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p20:
+    aops: https://artofproblemsolving.com/community/c4h3148239p28587889
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p21: 
+    aops: https://artofproblemsolving.com/community/c4h3148244p28587906
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p22: 
+    aops: https://artofproblemsolving.com/community/c4h3148236p28587883
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p23:
+    aops: https://artofproblemsolving.com/community/c4h3148246p28587912
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p24:
+    aops: https://artofproblemsolving.com/community/c4h3148248p28587916
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p25:
+    aops: https://artofproblemsolving.com/community/c4h3148251p28587920
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p26:
+    aops: https://artofproblemsolving.com/community/c4h3148218p28587848
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p27:
+    aops: https://artofproblemsolving.com/community/c4h3148252p28587928
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p28:
+    aops: https://artofproblemsolving.com/community/c4h3148237p28587884
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p29:
+    aops: https://artofproblemsolving.com/community/c4h3148238p28587886
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+
+p30:
+    aops: https://artofproblemsolving.com/community/c4h3148253p28587929
+    supp: 
+      - name: 
+        url:
+    eg: >
+    watru: >
+    soln: >
+

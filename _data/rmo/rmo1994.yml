@@ -1,8 +1,14 @@
 source:
+    yr: 1994
     qn: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-1994.pdf
+    aops: https://artofproblemsolving.com/community/c4975_1994_india_regional_mathematical_olympiad
 p3:
+    nom: P3
+    aops: https://artofproblemsolving.com/community/c6h57781p354865
+    supp: 
+      - name: 
+        url: 
     eg: >
-      ([India RMO 1994 P3](https://www2.isical.ac.in/~rmo/papers/rmo/rmo-1994.pdf), [AoPS](https://artofproblemsolving.com/community/c6h57781p354865))
       Find all $$ 6 $$-digit natural numbers $$ a_1 a_2 a_3 a_4 a_5 a_6 $$
       formed by using the digits $$ 1, 2, 3, 4, 5, 6 $$, once each 
       such that the number $$ a_1a_2 \dots a_k $$ is divisible by $$ k $$, 
@@ -43,8 +49,12 @@ p3:
       This proves that $$ 321654, 123654 $$ are precisely all the $$ 6 $$-digit numbers 
       satisfying the given condition. 
 p5:
+    nom: P5
+    aops: https://artofproblemsolving.com/community/c6h57783p354867
+    supp: 
+      - name: 
+        url: 
     eg: >
-      ([India RMO 1994 P5](https://www2.isical.ac.in/~rmo/papers/rmo/rmo-1994.pdf), [AoPS](https://artofproblemsolving.com/community/c6h57783p354867))
       Let $$ A $$ be a set of $$ 16 $$ positive integers with the property that 
       the product of any two distinct
       numbers of $$ A $$ will not exceed $$ 1994 $$. 
@@ -97,6 +107,7 @@ p5:
       $$ (n - 1) $$ of them are greater than $$ 1 $$, 
       and hence one of them is divisible by a prime at least as large as 
       the $$ (n-1) $$-st prime. 
+
 
       If possible, let us assume that the elements of $$ A $$ are pairwise coprime. 
       Hence, $$ A $$ contains an element $$ x $$ which is divisible by a prime 

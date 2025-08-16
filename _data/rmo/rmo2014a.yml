@@ -1,0 +1,32 @@
+source:
+    yr: 2014
+    qn: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2022/05/sol_crmo_14_1.pdf
+    aops: https://artofproblemsolving.com/community/c4995_2014_india_regional_mathematical_olympiad
+p4:
+    nom: P4
+    aops: https://artofproblemsolving.com/community/c6h616667p3673495
+    supp: 
+      - name: 
+        url: 
+    eg: >
+      Is it possible to write the numbers $$ 17, 18, 19, \dots, 32 $$ in a 
+      $$ 4\times 4 $$ grid of unit squares with one number in each square such that 
+      if the grid is divided into four $$ 2\times 2 $$ subgrids of unit squares, 
+      then the product of numbers in each of the subgrids divisible by $$ 16 $$?
+    img: 
+      - path: MOPSS25Aug9-3.svg
+        zoomable: true
+    watru: >
+      -
+      Show that the product of the entries in 
+      some subgrid is divisible by $$ 32 $$.
+      
+      - 
+      Conclude that the product of all the $$ 16 $$ entries 
+      is divisible by $$ 16 \times 16 \times 16 \times 32 $$.
+      
+      - 
+      Is the product of the integers $$ 17, 18, \dots, 32 $$ 
+      divisible by $$ 16 \times 16 \times 16 \times 32 $$?
+    soln: >
+    

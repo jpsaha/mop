@@ -1,8 +1,14 @@
 source:
+    yr: 2023a
     qn: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/11/KV-n-JNV.pdf
+    aops: https://artofproblemsolving.com/community/c3604832_2023_india_regional_mathematical_olympiad
 p2:
+    nom: P2
+    aops: https://artofproblemsolving.com/community/c6h3186940p29056544
+    supp: 
+      - name: 
+        url: 
     eg: >
-      ([India RMO 2023a P2](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/11/KV-n-JNV.pdf), [AoPS](https://artofproblemsolving.com/community/c6h3186940p29056544))
       Given a prime number $$ p $$ such that $$ 2p $$ is equal to the sum of the squares of 
       some four consecutive positive integers. Prove that $$ p-7 $$ is divisible by $$ 36 $$.
     watru: >

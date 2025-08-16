@@ -1,8 +1,14 @@
 source:
-    qn: 
+    yr: 2017
+    qn: https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2017/10/rmo2017.pdf
+    aops: https://artofproblemsolving.com/community/c545380_2017_india_regional_mathematical_olympiad
 p2:
+    nom: P2
+    aops: https://artofproblemsolving.com/community/c6h1525174p9137091
+    supp: 
+      - name: 
+        url: 
     eg: >
-      ([India RMO 2017a P2](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2017/10/rmo2017.pdf), [AoPS](https://artofproblemsolving.com/community/c6h1525174p9137091))
       Show that the sum of the cubes of any seven consecutive integers
       cannot be expressed as the sum of the fourth powers of two consecutive integers.
     watru: >

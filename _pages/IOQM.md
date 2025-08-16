@@ -15,14 +15,12 @@ mermaid:
 
 > ##### Links to Past Question Papers, Previous Years' Question papers and Solutions of IOQM
 
-> ##### IOQM, Question papers, Solutions, Answer keys
->
-{: .block-tip }
-
 {% capture ppsrc %}{% include md/pastsrc.md %}{% endcapture %}
 {{ ppsrc | markdownify }}
 
-> ##### Questions, Answers, Problems, Solutions, Discussions, Walkthroughs, Hints, IOQM
+> ##### IOQM, Question papers, Solutions, Answer keys, Questions, Answers, Problems, Solutions, Discussions, Walkthroughs, Hints
+>
+{: .block-tip }
 
 {% capture jlink %}{% include md/past/ioqm.md %}{% endcapture %}
 
@@ -39,7 +37,6 @@ mermaid:
 {{ jlink }}
 
 {% endfor %}
-
 
 {% capture content %}{% include md/mostages/stages2526.md %}{% endcapture %}
 {{ content | markdownify }}

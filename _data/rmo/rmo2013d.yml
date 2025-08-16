@@ -1,0 +1,24 @@
+source:
+    yr: 2013
+    qn: https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmo-2013-paper-4.pdf
+    aops: https://artofproblemsolving.com/community/c4994_2013_india_regional_mathematical_olympiad
+p6:
+    nom: P6
+    aops: https://artofproblemsolving.com/community/c6h566976p3320656
+    supp: 
+      - name: 
+        url: 
+    eg: >
+      Suppose that the vertices of a regular polygon of $$ 20 $$ sides 
+      are coloured with three colors red, blue and green, 
+      such that there are exactly three red vertices. 
+      Prove that there are three vertices $$ A,B,C $$ of the polygon 
+      having the same colour such that triangle $$ ABC $$ is isosceles.
+    img: 
+      - path: MOPSS25Aug9-2.svg
+        zoomable: true
+    watru: >
+      Decompose the set of vertices of the $$ 20 $$-gon 
+      using the vertices of the pentagons as in the image below.
+    soln: >
+    

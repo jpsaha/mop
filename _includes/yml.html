@@ -88,7 +88,33 @@
     {{ myvar | markdownify }}
   {% else %}
     {% if include.type == 'eg' %}
-      {% capture myvar %}{{ include.content.eg }}{% endcapture %}
+      {%- capture mycom -%}
+      {{ include.com }}
+      {%- endcapture -%}
+      {%- capture mypr -%}
+      {{ include.pr }}
+      {%- endcapture -%}
+      {% if include.title contains 'IOQM' or include.title contains 'RMO' or include.title contains 'INMO' %}
+        {%- capture mylin -%}
+        {%- if site.data.[include.com].[include.yr].source.qn -%}
+          [{{ mycom | upcase }} {{ site.data.[include.com].[include.yr].source.yr }}]({{ site.data.[include.com].[include.yr].source.qn }}) 
+          {%- else -%}
+          {{ mycom | upcase }} {{ site.data.[include.com].[include.yr].source.yr }}
+        {%- endif -%}
+        {%- if site.data.[include.com].[include.yr].source.aops -%}
+          {{ }} [{{ mypr | upcase }}]({{ site.data.[include.com].[include.yr].source.aops }})
+          {%- else -%}
+          {{ }} {{ mypr | upcase }}
+        {%- endif -%}
+        {%- if site.data.[include.com].[include.yr].[include.pr].aops -%}
+          , [AoPS]({{ site.data.[include.com].[include.yr].[include.pr].aops }})
+        {%- endif -%}
+        {%- endcapture -%}
+      {% endif %}
+      {% if site.data.[include.com].[include.yr].[include.pr].supp %}
+        {% capture mysupp %}{% for member in site.data.[include.com].[include.yr].[include.pr].supp %}{% if member.name %}, cf. {% endif %}{% if member.url %}[{{ member.name }}]({{ member.url }}){% else %}{{ member.name }}{% endif %}{% endfor %}{% endcapture %}
+      {% endif %}
+      {% capture myvar %}({{ mylin }}{{ mysupp }}) {{ site.data.[include.com].[include.yr].[include.pr].[include.type] }}{% endcapture %}
       {{ myvar | markdownify }}
     {% else %}
       {% if include.type == 'eg1' %}
@@ -116,15 +142,73 @@
                   {{ myvar | markdownify }}
                 {% else %}
                   {% if include.type == 'watru' %}
-                    {% details Click here for the spoiler! %}
-                    {% capture myvar %}{{ include.content.watru }}{% endcapture %}
-{{ myvar | markdownify }}
-                    {% enddetails %}
+                    {%- capture myvar -%}{{ site.data.[include.com].[include.yr].[include.pr].watru }}{%- endcapture -%}
+                    {{ myvar | markdownify }}
+                    {% if site.data.[include.com].[include.yr].[include.pr].img %}
+                      <div class="row mt-3 text-center">
+                      {% assign members = site.data[include.com][include.yr][include.pr].img %}
+                        {% for member in members %}
+                          {% if include.title contains 'IOQM' %}
+                            {% assign mypath = member.path | prepend: 'assets/img/ioqm/' %}
+                          {% else %}
+                            {% if include.title contains 'RMO' %}
+                              {% assign mypath = member.path | prepend: 'assets/img/rmo/' %}
+                            {% else %}
+                              {% if include.title contains 'INMO' %}
+                                {% assign mypath = member.path | prepend: 'assets/img/inmo/' %}
+                              {% else %}
+                                {% assign mypath = member.path | prepend: 'assets/img/' %}
+                              {% endif %}
+                            {% endif %}
+                          {% endif %}
+                          {%- capture myprno -%}{{ include.pr }}{%- endcapture -%}
+                          {%- capture myprnoupcase -%}{{ myprno | upcase }}{%- endcapture -%}
+                          {% if include.title contains 'IOQM' %}
+                            {% assign mycap = member.caption | default: "" | prepend: myprnoupcase | prepend: " " | prepend: site.data.[include.com].[include.yr].source.yr | prepend: " " | prepend: "IOQM" %}
+                          {% else %}
+                            {% if include.title contains 'RMO' %}
+                              {% assign mycap = member.caption | default: "" | prepend: myprnoupcase | prepend: " " | prepend: site.data.[include.com].[include.yr].source.yr | prepend: " " | prepend: "RMO" %}
+                            {% else %}
+                              {% if include.title contains 'IOQM' %}
+                                {% assign mycap = member.caption | default: "" | prepend: myprnoupcase | prepend: " " | prepend: site.data.[include.com].[include.yr].source.yr | prepend: " " | prepend: "INMO" %}
+                              {% else %}
+                                {% assign mycap = member.caption | default: "" | prepend: myprnoupcase | prepend: " " | prepend: site.data.[include.com].[include.yr].source.yr %}
+                              {% endif %}
+                            {% endif %}
+                          {% endif %}
+                          {% assign count = members | size %}
+                          {% assign col_width = 12 | divided_by: count %}
+                          {% if members.size > 0 %}
+                            {% assign mycap = "Fig " | append: forloop.index | append: ": " | append: mycap %}
+                            {% if count == 1 %}
+                                <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
+                                    <div style="width:70%;">
+                                        {% include figure.liquid 
+                                            loading="eager" 
+                                            path=mypath 
+                                            class="img-fluid rounded z-depth-1" 
+                                            width="100%" 
+                                            caption=mycap 
+                                            zoomable=member.zoomable 
+                                        %}
+                                    </div>
+                                </div>
+                            {% else %}
+                              <div class="col-md-{{ col_width }} mt-3 mt-md-0 d-flex justify-content-center">
+                                <div style="width:70%;">
+                                  {% include figure.liquid loading="eager" path=mypath class="img-fluid rounded z-depth-1" width="100%" caption=mycap zoomable='member.zoomable' %}
+                                </div>
+                              </div>
+                            {% endif %}
+                          {% endif %}
+                        {% endfor %}
+                      </div>
+                    {% endif %}
                   {% else %}
                     {% if include.type == 'pf' %}
                       {% details Click here for the spoiler! %}
-                      {% capture myvar %}{{ include.content.pf }}{% endcapture %}
-{{ myvar | markdownify }}
+                      {%- capture myvar -%}{{ include.content.pf }}{%- endcapture -%}
+                      {{ myvar | markdownify }}
                       {% enddetails %}
                     {% else %}
                       {% if include.type == 'rk' %}
@@ -140,10 +224,68 @@
                             {{ myvar | markdownify }}
                           {% else %}
                             {% if include.type == 'soln' %}
-                              {% capture myvar %}{{ include.content.soln }}{% endcapture %}
-                              {% details Click here for the spoiler! %}
-{{ myvar | markdownify }}
-                              {% enddetails %}
+                              {%- capture myvar -%}{{ site.data.[include.com].[include.yr].[include.pr].soln }}{%- endcapture -%}
+                              {{ myvar | markdownify }}
+                              {% if site.data.[include.com].[include.yr].[include.pr].soln.img %}
+                                <div class="row mt-3 text-center">
+                                {% assign members = site.data[include.com][include.yr][include.pr].soln.img %}
+                                  {% for member in members %}
+                                    {% if include.title contains 'IOQM' %}
+                                      {% assign mypath = member.path | prepend: 'assets/img/ioqm/' %}
+                                    {% else %}
+                                      {% if include.title contains 'RMO' %}
+                                        {% assign mypath = member.path | prepend: 'assets/img/rmo/' %}
+                                      {% else %}
+                                        {% if include.title contains 'INMO' %}
+                                          {% assign mypath = member.path | prepend: 'assets/img/inmo/' %}
+                                        {% else %}
+                                          {% assign mypath = member.path | prepend: 'assets/img/' %}
+                                        {% endif %}
+                                      {% endif %}
+                                    {% endif %}
+                                    {%- capture myprno -%}{{ include.pr }}{%- endcapture -%}
+                                    {%- capture myprnoupcase -%}{{ myprno | upcase }}{%- endcapture -%}
+                                    {% if include.title contains 'IOQM' %}
+                                      {% assign mycap = member.caption | default: "" | prepend: myprnoupcase | prepend: " " | prepend: site.data.[include.com].[include.yr].source.yr | prepend: " " | prepend: "IOQM" %}
+                                    {% else %}
+                                      {% if include.title contains 'RMO' %}
+                                        {% assign mycap = member.caption | default: "" | prepend: myprnoupcase | prepend: " " | prepend: site.data.[include.com].[include.yr].source.yr | prepend: " " | prepend: "RMO" %}
+                                      {% else %}
+                                        {% if include.title contains 'IOQM' %}
+                                          {% assign mycap = member.caption | default: "" | prepend: myprnoupcase | prepend: " " | prepend: site.data.[include.com].[include.yr].source.yr | prepend: " " | prepend: "INMO" %}
+                                        {% else %}
+                                          {% assign mycap = member.caption | default: "" | prepend: myprnoupcase | prepend: " " | prepend: site.data.[include.com].[include.yr].source.yr %}
+                                        {% endif %}
+                                      {% endif %}
+                                    {% endif %}
+                                    {% assign count = members | size %}
+                                    {% assign col_width = 12 | divided_by: count %}
+                                    {% if members.size > 0 %}
+                                      {% assign mycap = "Fig " | append: forloop.index | append: ": " | append: mycap %}
+                                      {% if count == 1 %}
+                                          <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
+                                              <div style="width:70%;">
+                                                  {% include figure.liquid 
+                                                      loading="eager" 
+                                                      path=mypath 
+                                                      class="img-fluid rounded z-depth-1" 
+                                                      width="100%" 
+                                                      caption=mycap 
+                                                      zoomable=member.zoomable 
+                                                  %}
+                                              </div>
+                                          </div>
+                                      {% else %}
+                                        <div class="col-md-{{ col_width }} mt-3 mt-md-0 d-flex justify-content-center">
+                                          <div style="width:70%;">
+                                            {% include figure.liquid loading="eager" path=mypath class="img-fluid rounded z-depth-1" width="100%" caption=mycap zoomable='member.zoomable' %}
+                                          </div>
+                                        </div>
+                                      {% endif %}
+                                    {% endif %}
+                                  {% endfor %}
+                                </div>
+                              {% endif %}
                             {% else %}
                               {% if include.type == 'xca' %}
                                 {% capture myvar %}{{ include.content.xca }}{% endcapture %}

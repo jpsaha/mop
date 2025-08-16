@@ -1,8 +1,14 @@
 source:
-    qn: 
+    yr: 2005
+    qn: https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo-2005.pdf
+    aops: 
 p2:
+    nom: P2
+    aops: https://artofproblemsolving.com/community/c6h77023p442336
+    supp: 
+      - name: 
+        url: 
     eg: >
-      ([India RMO 2005 P2](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo-2005.pdf), [AoPS](https://artofproblemsolving.com/community/c6h77023p442336))
       If $$ x, y $$ are integers and $$ 17 $$ divides
       both the expressions $$ x^2 - 2xy + y^2 - 5x + 7y $$
       and $$ x^2 - 3xy + 2y^2 + x - y $$, then prove that
@@ -13,11 +19,13 @@ p2:
     watru: >
       - Factorize $$ x^2 - 3xy + 2y^2 + x - y $$
       to show that
+
       \\[
       x \equiv y \pmod{17},
       \quad \text{ or }
       x \equiv 2y - 1 \pmod{17}
       \\]
+      
       holds.
 
       - Consider the above cases seperately,
@@ -80,6 +88,11 @@ p2:
       \\]
       This proves that $$ 17 $$ divides $$ xy - 12x + 15y $$.
 p3:
+    nom: P3
+    aops: 
+    supp:
+      - name: 
+        url:  
     eg: >
     
     watru: >

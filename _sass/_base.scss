@@ -1567,7 +1567,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 .bogus-block .block-title::before {
   content: "Bogus solution " counter(bogus) ". ";
-  color: #ceced4;
+  color: #f71d21;
   font-weight: bold;
   font-size: 1.12em;
 }

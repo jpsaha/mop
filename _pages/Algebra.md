@@ -29,7 +29,7 @@ pretty_table: true
 
 ## References/Resources
 
-- Olympiad Training Materials from [IMOmath](https://imomath.com/index.cgi?page=mathTexts).
+- Olympiad Training Materials from [IMOmath](https://imomath.com/index.cgi?page=mathTexts)
 - Mathematical Olympiad Treasures by Titu Andreescu, Bogdan Enescu
 - 101 Problems in Algebra by Titu Andreescu, Zuming Feng
 - Mathematical Olympiad Challenges by Titu Andreescu, Răzvan Gelca
