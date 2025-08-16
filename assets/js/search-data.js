@@ -156,7 +156,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/mop/MOPSS/";
           },
-        },{id: "post-mopss-19th-july-2025",
+        },{id: "post-mopss-9th-august-2025",
+        
+          title: "MOPSS, 9th August 2025",
+        
+        description: "MOPSS Problems, Walkthroughs, Solutions from 9th August 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/MOPSS25Aug09/";
+          
+        },
+      },{id: "post-mopss-19th-july-2025",
         
           title: "MOPSS, 19th July 2025",
         
@@ -855,7 +866,7 @@ ninja.data = [{
           section: "News",},{id: "news-the-deadline-for-submitting-application-for-mopss-has-been-extended-to-21st-july-2024-the-students-enrolled-in-the-11th-or-12th-standard-may-write-to-jyoti-prakash-saha-jpsaha-iiserb-ac-in-if-they-would-like-to-participate-in-mopss",
           title: 'The deadline for submitting application for MOPSS has been extended to 21st July,...',
           description: "",
-          section: "News",},{id: "news-mathematics-olympiad-problem-solving-sessions-mopss-will-be-held-during-9-00am-to-12-00pm-at-iiser-bhopal-in-person-offline-classroom-meetings-on-the-following-dates-5th-july-19th-july-2025-9th-23rd-august-2025-27th-september-2025-11th-25th-october-2025-22nd-november-2025-please-visit-this-page-for-the-details",
+          section: "News",},{id: "news-mathematics-olympiad-problem-solving-sessions-mopss-will-be-held-during-9-00am-to-12-00pm-at-iiser-bhopal-in-person-offline-classroom-meetings-on-the-following-dates-5th-july-19th-july-2025-9th-august-23rd-august-2025-27th-september-2025-11th-25th-october-2025-22nd-november-2025-please-visit-this-page-for-the-details",
           title: 'Mathematics Olympiad Problem Solving Sessions (MOPSS) will be held during 9:00am to 12:00pm...',
           description: "",
           section: "News",},{id: "projects-project-1",
