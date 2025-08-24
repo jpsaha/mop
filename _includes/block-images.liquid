@@ -1,0 +1,72 @@
+{% comment %}
+block-images.liquid
+Renders images for include.type == 'soln' or 'watru'
+Expects: include.com, include.yr, include.pr, include.title, include.type
+{% endcomment %}
+
+<div class="row mt-3 text-center">
+  {% assign members = site.data[include.com][include.yr][include.pr].img %}
+  {% for member in members %}
+  {% if members %}
+    {% if include.title contains 'IOQM' %}
+      {% assign mypath = member.path | prepend: 'assets/img/ioqm/' %}
+    {% elsif include.title contains 'RMO' %}
+      {% assign mypath = member.path | prepend: 'assets/img/rmo/' %}
+    {% elsif include.title contains 'INMO' %}
+      {% assign mypath = member.path | prepend: 'assets/img/inmo/' %}
+    {% else %}
+      {% assign mypath = member.path | prepend: 'assets/img/' %}
+    {% endif %}
+
+    {%- capture myprno -%}{{ include.pr }}{%- endcapture -%}
+    {%- capture myprnoupcase -%}{{ myprno | upcase }}{%- endcapture -%}
+
+    {% if include.title contains 'IOQM' %}
+      {% assign mycap = member.caption | default: "" | prepend: " " | prepend: myprnoupcase | prepend: " " | prepend: site.data.[include.com].[include.yr].source.yr | prepend: " " | prepend: " IOQM" %}
+    {% elsif include.title contains 'RMO' %}
+      {% assign mycap = member.caption | default: "" | prepend: " " | prepend: myprnoupcase | prepend: " " | prepend: site.data.[include.com].[include.yr].source.yr | prepend: " " | prepend: " RMO" %}
+    {% elsif include.title contains 'INMO' %}
+      {% assign mycap = member.caption | default: "" | prepend: " " | prepend: myprnoupcase | prepend: " " | prepend: site.data.[include.com].[include.yr].source.yr | prepend: " " | prepend: " INMO" %}
+    {% else %}
+      {% assign mycap = member.caption | default: "" | prepend: " " | prepend: myprnoupcase | prepend: " " | prepend: site.data.[include.com].[include.yr].source.yr %}
+    {% endif %}
+
+    {% assign mycap = "Fig " | append: forloop.index | append: ": " | append: mycap %}
+
+    {% assign filtered_members = members | where: "ref", include.type %}
+    {% assign count = filtered_members | size %}
+    {% if count > 0 %}
+      {% assign col_width = 12 | divided_by: count %}
+      {% if member.ref == include.type %}
+        {% if count == 1 %}
+          <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
+            <div style="width:70%;">
+              {% include figure.liquid 
+                loading="eager"
+                path=mypath
+                class="img-fluid rounded z-depth-1"
+                width="100%"
+                caption=mycap
+                zoomable=member.zoomable
+              %}
+            </div>
+          </div>
+        {% else %}
+          <div class="col-md-{{ col_width }} mt-3 mt-md-0 d-flex justify-content-center">
+            <div style="width:70%;">
+              {% include figure.liquid 
+                loading="eager"
+                path=mypath
+                class="img-fluid rounded z-depth-1"
+                width="100%"
+                caption=mycap
+                zoomable=member.zoomable
+              %}
+            </div>
+          </div>
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+  {% endfor %}
+</div>
