@@ -15,15 +15,18 @@ profile:
     <p>Madhya Pradesh, India</p>
     -->
 
-news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-tabs: true
-giscus_comments: true
-pretty_table: true
-mermaid:
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
   enabled: true
-  zoomable: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: # leave blank to include all the blog posts
 ---
 
 > #### Practice problems, Problem Set, Questions, Answers, Problems, Solutions, Discussions, Walkthroughs, Hints, IOQM, RMO, INMO, Study material, Resources, Olympiad Notes, Olympiad Problems
