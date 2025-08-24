@@ -15,10 +15,26 @@ p6:
       Prove that there are three vertices $$ A,B,C $$ of the polygon 
       having the same colour such that triangle $$ ABC $$ is isosceles.
     img: 
-      - path: MOPSS25Aug9-2.svg
+      - path: rmo2013dp6.svg
         zoomable: true
+        ref: watru
     watru: >
       Decompose the set of vertices of the $$ 20 $$-gon 
       using the vertices of the pentagons as in the image below.
     soln: >
-    
+      Since there are exactly three red vertices and 
+      any of the remaining $$ 17 $$ vertices are blue or green,
+      it follows that at least $$ 9 $$ of these $$ 17 $$ vertices 
+      are of the same color, say blue. 
+      Note that the set of vertices of 
+      a regular $$ 20 $$-gon can be written 
+      as the union of the four pairwise disjoint sets, 
+      each of them consisting of the vertices of a regular pentagon
+      (as in Fig. 1). 
+      Since there are nine blue vertices, 
+      by the pigeonhole principle, 
+      at least one of these four sets contains 
+      three blue points. 
+      Since any three points on a regular pentagon form 
+      the vertices of an isosceles triangle, 
+      the statement follows.

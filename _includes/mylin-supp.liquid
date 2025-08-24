@@ -1,0 +1,44 @@
+{%- assign mylin = "" -%}
+{%- assign mysupp = "" -%}
+
+{%- if include.type == "eg" -%}
+  {%- capture mycom -%}
+    {{ include.com }}
+  {%- endcapture -%}
+  {%- capture mypr -%}
+    {{ include.pr }}
+  {%- endcapture -%}
+
+  {%- if include.title contains 'IOQM' or include.title contains 'RMO' or include.title contains 'INMO' -%}
+    {%- capture mylin -%}
+      {%- if site.data[include.com][include.yr].source.qn -%}
+        [{{ mycom | upcase }} {{ site.data[include.com][include.yr].source.yr }}]({{ site.data[include.com][include.yr].source.qn }})
+      {%- else -%}
+        {{ mycom | upcase }} {{ site.data[include.com][include.yr].source.yr }}
+      {%- endif -%}
+      {%- if site.data[include.com][include.yr].source.aops -%}
+        {{ }} [{{ mypr | upcase }}]({{ site.data[include.com][include.yr].source.aops }})
+      {%- else -%}
+        {{ }} {{ mypr | upcase }}
+      {%- endif -%}
+      {%- if site.data[include.com][include.yr][include.pr].aops -%}
+        , [AoPS]({{ site.data[include.com][include.yr][include.pr].aops }})
+      {%- endif -%}
+    {%- endcapture -%}
+  {%- endif -%}
+
+  {%- if site.data[include.com][include.yr][include.pr].supp -%}
+    {%- capture mysupp -%}
+      {%- for member in site.data[include.com][include.yr][include.pr].supp -%}
+        {%- if member.name %}, cf. {% endif -%}
+        {%- if member.url -%}
+          [{{ member.name }}]({{ member.url }})
+        {%- else -%}
+          {{ member.name }}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endcapture -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- capture mylin_supp -%}{% if mylin != "" or mysupp != "" %}({{ mylin }}{{ mysupp }}){% endif %}{%- endcapture -%}

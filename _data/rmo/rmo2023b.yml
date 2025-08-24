@@ -1,5 +1,5 @@
 source:
-    yr: 2023b
+    yr: 2023
     qn: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/11/NonKV-or-Non-JNV.pdf
     aops: https://artofproblemsolving.com/community/c3604832_2023_india_regional_mathematical_olympiad
 p1:
@@ -41,10 +41,12 @@ p6:
       Prove that if any $$ 7 $$ of these points are coloured blue, 
       then there exists an isosceles right-angled triangle whose vertices are all blue.
     img: 
-      - path: MOPSS25Aug9-5.svg
+      - path: rmo2023bp6-1.svg
         zoomable: true
-      - path: MOPSS25Aug9-6.svg
+        ref: watru
+      - path: rmo2023bp6-2.svg
         zoomable: true
+        ref: watru
     watru: >
       - Show that if the small square (as in Fig. 1) 
       does not contain a blue point, 

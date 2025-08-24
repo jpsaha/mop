@@ -24,7 +24,7 @@ function dataFormatter(obj) {
   // prettier-ignore
   var pList = ['IMO', 'APMO', 'EGMO'];
   var temp;
-  for (var year = 2015; year <= 2024; year++) {
+  for (var year = 2015; year <= 2025; year++) {
     var max = 0;
     var sum = 0;
     temp = obj[year];
@@ -44,6 +44,7 @@ function dataFormatter(obj) {
 // prettier-ignore Gold
 dataMap.dataGold = dataFormatter({
     //max : 60000,
+    2025: [3, 1, 0],
     2024: [4, 1, 0],
     2023: [2, 1, 0],
     2022: [1, 1, 0],
@@ -58,6 +59,7 @@ dataMap.dataGold = dataFormatter({
 // prettier-ignore Silver
 dataMap.dataSilver = dataFormatter({
     //max : 4000,
+    2025: [2, 2, 2],
     2024: [1, 2, 2],
     2023: [2, 2, 2],
     2022: [0, 2, 0],
@@ -72,6 +74,7 @@ dataMap.dataSilver = dataFormatter({
 // prettier-ignore Bronze
 dataMap.dataBronze = dataFormatter({
     //max : 26600,
+    2025: [1, 4, 2],
     2024: [0, 4, 2],
     2023: [2, 4, 1],
     2022: [5, 4, 4],
@@ -86,6 +89,7 @@ dataMap.dataBronze = dataFormatter({
 // prettier-ignore HM
 dataMap.dataHM = dataFormatter({
     //max : 25000,
+    2025: [0, 3, 0],
     2024: [1, 3, 0],
     2023: [0, 3, 1],
     2022: [0, 3, 0],
@@ -188,6 +192,14 @@ option = {
             formatter: '{b} MO'
           },
           symbol: 'diamond',
+          symbolSize: 16
+        },
+        {
+          value: '2025',
+          tooltip: {
+            formatter: '{b} MO'
+          },
+          symbol: 'circle',
           symbolSize: 16
         },
       ],
@@ -425,6 +437,23 @@ option = {
             { name: 'Silver', value: dataMap.dataSilver['2024sum'] },
             { name: 'Bronze', value: dataMap.dataBronze['2024sum'] },
             { name: 'HM', value: dataMap.dataHM['2024sum'] }
+          ]
+        }
+      ]
+    },
+    {
+      title: { text: '2025' },
+      series: [
+        { data: dataMap.dataGold['2025'] },
+        { data: dataMap.dataSilver['2025'] },
+        { data: dataMap.dataBronze['2025'] },
+        { data: dataMap.dataHM['2025'] },
+        {
+          data: [
+            { name: 'Gold', value: dataMap.dataGold['2025sum'] },
+            { name: 'Silver', value: dataMap.dataSilver['2025sum'] },
+            { name: 'Bronze', value: dataMap.dataBronze['2025sum'] },
+            { name: 'HM', value: dataMap.dataHM['2025sum'] }
           ]
         }
       ]

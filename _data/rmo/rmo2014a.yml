@@ -14,8 +14,9 @@ p4:
       if the grid is divided into four $$ 2\times 2 $$ subgrids of unit squares, 
       then the product of numbers in each of the subgrids divisible by $$ 16 $$?
     img: 
-      - path: MOPSS25Aug9-3.svg
+      - path: rmo2014ap4.svg
         zoomable: true
+        ref: watru
     watru: >
       -
       Show that the product of the entries in 
@@ -29,4 +30,22 @@ p4:
       Is the product of the integers $$ 17, 18, \dots, 32 $$ 
       divisible by $$ 16 \times 16 \times 16 \times 32 $$?
     soln: >
-    
+      The highest exponents of $$ 2 $$ dividing $$ 32! $$ and $$ 16! $$ are given by
+      \\[
+          v_2 (32!) = 16 + 8 + 4 + 2+ 1, \quad
+      v_2(16!) = 8 + 4+ 2+ 1.
+      \\]
+      So the highest power of $$ 2 $$ dividing the product of 
+      the integers 
+      $$ 17, 18, 19, \dots, 32 $$ is $$ 2^{16} $$. 
+      Now if it were possible to write these numbers in a 
+      $$ 4\times 4 $$ grid in the above-mentioned manner, 
+      then the product of the numbers in each of 
+      the $$ 2 \times 2 $$ subgrids with blue boundary 
+      (see Fig. 1) 
+      would be divisible by $$ 2^4 $$. Note that one such subgrid would contain $$ 32 $$, 
+      which implies that the product of $$ 17, 18, \dots, 32 $$ is divisible by 
+      $$ 2^4\cdot 2^4\cdot 2^4 \cdot 32 = 2^{17} $$, which is impossible. 
+      Hence it is not possible to write the integers 
+      $$ 17, 18, \dots, 32 $$ in a $$ 4\times 4 $$ grid satisfying the given conditions.
+ 

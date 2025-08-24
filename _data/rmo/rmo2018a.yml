@@ -18,8 +18,9 @@ p4:
       (That is, there always exist four points in the set $$ E $$ which form 
       the vertices of a square and having at least three points of the same colour.)
     img: 
-      - path: MOPSS25Aug9-4.svg
+      - path: rmo2018ap4.svg
         zoomable: true
+        ref: watru
     watru: >
       -
       Assume that the conclusion is false, 

@@ -1,7 +1,7 @@
 source:
-    yr: 2023
-    qn: https://www.mtai.org.in/wp-content/uploads/2023/09/IOQM_Sep_2023_Question-paper-with-answer-key.pdf
-    aops: https://artofproblemsolving.com/community/c3531959_202324_ioqm_india
+    yr: 2024
+    qn: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2025/04/ioqm-2024-english.pdf
+    aops: https://artofproblemsolving.com/community/c4002279_202425_ioqm_india
 
 p1:
     aops: https://artofproblemsolving.com/community/c4h3148209p28587825
@@ -100,12 +100,37 @@ p7:
     soln: >
 
 p8: 
-    aops: https://artofproblemsolving.com/community/c4h3148216p28587844
+    aops: https://artofproblemsolving.com/community/c4h3394952p32653883
     supp: 
       - name: 
         url:
     eg: >
+      Let $$ n $$ be the smallest integer such that the sum of the digits of $$ n $$ 
+      is divisible by $$ 5 $$, 
+      as well as the sum of the digits of $$ n + 1 $$ is divisible by $$ 5 $$.
+      What are the first two digits of $$ n $$ in the same order?
     watru: >
+      - Show that the last digit of $$ n $$ is $$ 9 $$.
+
+      - Note that $$ n $$ has at least two digits.
+      If $$ n $$ is a two-digit number, then show that 
+      it is not equal to any integer other than $$ 19 $$ or $$ 69 $$.
+      
+      - Conclude that $$ n $$ has at least three digits, 
+      and its second last digit is $$ 9 $$.
+      
+      - If $$ n $$ is a three-digit number, then show that
+      it is not equal to any integer other than $$ 299 $$ or $$ 799 $$.
+      
+      - Argue similarly to show that 
+      $$ n $$ has at least four digits, 
+      and its third last digit is $$ 9 $$.
+      
+      - Prove that $$ n $$ has at least five digits,
+      and its fourth last digit is $$ 9 $$.
+      
+      - If $$ n $$ is a five-digit number, 
+      then show that it is equal to $$ 49999 $$.
     soln: >
 
 p9:
@@ -176,107 +201,66 @@ p9:
 
 
 p10:
-    aops: https://artofproblemsolving.com/community/c4h3148220p28587850
+    aops: https://artofproblemsolving.com/community/c4h3394957p32653892
     supp: 
       - name: 
         url:
     eg: >
-      The sequence $$ \langle a_n \rangle_{n\geq 0} $$ 
-      is defined by $$ a_0 = 1, a_1 = -4 $$ and 
-
-      \\[
-          a_{n + 2} = - 4 a_{n+1} - 7a_n
-      \\]
+      Determine the number of positive integral values of 
+      $$ p $$ for which there exists a triangle with sides 
+      $$ a, b $$ and $$ c $$ which satisfy 
       
-      for $$ n \geq 0 $$. 
-      Find the number of positive integer divisors of 
-      $$ a_{50}^2 - a_{49}a_{51} $$. 
+      \\[
+      a^2 + (p^2 + 9)b^2 + 9c^2 - 6ab - 6pbc = 0
+      \\]
 
     watru: >
-      - Compute the first few terms of the sequence to note that \
-
-      $$
-      \begin{align*}
-          a_0 & = 1, \\
-          a_1 & = - 4,\\
-          a_2 & = 9, \\
-          a_3 & = -8, \\
-          a_4 & = - 31,
-      \end{align*}
-      $$
-      
-      <br>
-      which gives
-
-
-      \$$
-      \begin{align*}
-        a_1^2 - a_0a_2 & = 16  - 9 \\
-          & = 7,\\
-        a_2^2 - a_1a_3 & = 81 - 32 \\
-          & = 49,\\
-        a_3^2 - a_2a_4
-          & = 64 + 279 \\
-          & = 343. 
-      \end{align*}
-      \$$
-      
-      
-      This may suggest that
+      -
+      Note that 
 
       \\[
-      a_n^2 - a_{n-1}a_{n+1}
-      = 7^n
+      a^2 + (p^2 + 9)b^2 + 9c^2 - 6ab - 6pbc 
+      = (a - 3b)^2 + (pb - 3c)^2.
       \\]
 
-      
-      holds for any integer $$ n\geq 1 $$. 
-
-      
-      - Indeed, 
-      it is clear for $$ n = 1 $$. 
-      Assuming that 
+      - 
+      This gives $$ a = 3b $$ and 
 
       \\[
-      a_n^2 - a_{n-1}a_{n+1}
-      = 7^n
+          c = \frac{p}{3}b.
       \\]
-
-      holds for some integer $$ n\geq 1 $$, 
-      note that \
-
-      $$
-      \begin{align*}
-            & a_{n+1}^2 - a_{n} a_{n+2} \\
-            & = a_{n+1}^2 - a_n (-4a_{n+1} - 7a_n)\\
-            & = a_{n+1}^2 + 4a_n a_{n+1} + 7 a_n^2 \\
-            & = a_{n+1}^2 + 4a_n a_{n+1} + 7 a_{n-1}a_{n+1} + 7^{n+1} \\
-            & = a_{n+1} (a_{n+1} + 4a_n + 7a_{n-1}) + 7^{n+1}\\
-            & = 7^{n+1}.
-      \end{align*}
-      $$
       
-      <br>
-      This proves that
+      -
+      Use the inequality[^ioqm24p101]
+      $$ a + b > c $$, 
+      to obtain 
 
       \\[
-      a_n^2 - a_{n-1}a_{n+1}
-      = 7^n
+          3b + b > \frac{p}{3}b,
       \\]
 
-      holds for any integer $$ n\geq 1 $$.  
+      which yields $$ p \leq 11 $$.
 
       -
-      Consequently, 
+      Use the inequality[^ioqm24p102]
+      $$ b + c > a $$, 
+      to get
 
       \\[
-      a_{50}^2 - a_{49}a_{51} 
-      = 
-      7^{50},
+          b + \frac{p}{3}b > 3b,
       \\]
 
-      whose number of positive integer divisors is equal to 
-      $$ 51 $$. 
+      implying $$ p \geq 7 $$.
+
+      -
+      It reduces to finding the number of
+      positive integers $$ p $$ such that
+      $$ 7 \leq p \leq 11 $$.
+
+
+      [^ioqm24p101]: How does it follow?
+
+      [^ioqm24p102]: How does it follow?
     soln: >
       - 
 
@@ -465,12 +449,62 @@ p14:
     soln: >
 
 p15:
-    aops: https://artofproblemsolving.com/community/c4h3148233p28587876
+    aops: https://artofproblemsolving.com/community/c4h3394963p32653906
     supp: 
       - name: 
         url:
     eg: >
+      Let $$ X $$ be the set of consisting of twenty positive integers 
+      $$ n, n + 2, \dots, n + 38 $$.
+      The smallest value of $$ n $$ for which any three numbers 
+      $$ a, b, c \in X $$,
+      not necessarily distinct, 
+      form the sides of an acute-angled triangle is:
     watru: >
+      - Use the fact that\footnote{How to prove it? Does the 
+      **converse** of this statement hold? In other words,
+      if $$ a, b, c $$ are positive real numbers satisfying
+      $$ a^2 + b^2 > c^2 $$, then does it 
+      follow that 
+      $$ a, b, c $$ are the sides of an acute-angled triangle?} 
+      if $$ a, b, c $$ are the sides of an acute-angled triangle
+      with $$ c $$ denoting the largest side,
+      then $$ a^2 + b^2 > c^2 $$ holds. 
+
+      - 
+      Show that for any such $$ n $$, 
+      the inequality 
+
+      \\[
+          (n + 38)^2 < 2n^2
+      \\]
+
+      holds, which yields $$ n \geq 92 $$.
+
+      - 
+      Prove that for $$ n = 92 $$,
+      the inequality
+
+      \\[
+          2 (n + 2i)^2 > (n + 2i + 2)^2
+      \\]
+
+      holds for $$ i = 0, 1, \dots, 18 $$.
+      
+      -
+      Note that if suffices to show that 
+
+      \\[
+          2m^2 > (m + 2)^2
+      \\]
+
+      for any $$ m \in \{92, 94, \dots, 128\} $$.
+    
+    
+      What is the role of part (c)? 
+      Does it guarantee that 
+      for $$ n  = 92 $$, 
+      the set $$ X $$ has the stated property?
     soln: >
 
 p16:

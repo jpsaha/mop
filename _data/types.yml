@@ -1,0 +1,83 @@
+# _data/types.yml
+defn:
+  name: definition
+  prefix: definition
+  block: definition-block
+
+eg:
+  name: example
+  prefix: example
+  block: example-block
+  extra:
+    mylin: true
+    mysupp: true
+
+eg1:
+  name: example
+  prefix: example
+  block: example-block
+
+lem:
+  name: lemma
+  prefix: lemma
+  block: lemma-block
+
+claim:
+  name: claim
+  prefix: claim
+  block: claim-block
+
+prop:
+  name: proposition
+  prefix: proposition
+  block: proposition-block
+
+thm:
+  name: theorem
+  prefix: theorem
+  block: theorem-block
+
+hint:
+  name: hint
+  prefix: hint
+  block: hint-block
+
+watru:
+  name: walkthrough
+  prefix: walkthrough
+  block: walkthrough-block
+
+pf:
+  name: proof
+  prefix: proof
+  block: proof-block
+
+rk:
+  name: remark
+  prefix: remark
+  block: remark-block
+
+rk1:
+  name: remark
+  prefix: remark
+  block: remark-block
+
+prblm:
+  name: problem
+  prefix: problem
+  block: problem-block
+
+soln:
+  name: solution
+  prefix: solution
+  block: solution-block
+
+xca:
+  name: exercise
+  prefix: exercise
+  block: exercise-block
+
+bogus:
+  name: bogus
+  prefix: bogus
+  block: bogus-block

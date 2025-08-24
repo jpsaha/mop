@@ -25,6 +25,7 @@ pretty_table: true
 <div id="column-controls" style="float: right; margin-left: 1rem;">
   <label><input type="checkbox" class="toggle-col" data-col="1" checked> INMO</label>
   <label><input type="checkbox" class="toggle-col" data-col="2" checked> AoPS</label>
+  <label><input type="checkbox" class="toggle-col" data-col="3" checked> Discussion</label>
 </div>
 
 <!-- Table -->
@@ -44,15 +45,16 @@ pretty_table: true
       <th scope="col" data-field="yr" data-halign="center" data-align="center" data-sortable="true" >Year</th>
       <th scope="col" data-field="inmo" data-halign="center" data-align="center" >INMO <br> Question papers, <br> Solutions</th>
       <th scope="col" data-field="aops" data-halign="center" data-align="center" >AoPS</th>
+      <th scope="col" data-field="discussion" data-halign="center" data-align="center" >Discussion</th>
     </tr>
   </thead>
   <tbody>
     {% for item in site.data.past %}
+    {% if item.inmo.yr %}
       <tr>
-        <td>{{ item.yr }}</td>
-        <td>{% if item.inmo.yr %} {% for member in item.inmo.qn %} {% if member.qq %}{{ member.src }} <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf fa-2x"></i></a> {% endif %} {% if member.sol %}<a href="{{ member.sol }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf fa-2x"></i></a>{% endif %}{% unless forloop.last %} <br>{% endunless %}{% endfor %} </td>
-        <td> {% for member in item.inmo.aops %}{% if member.qq %} {{ member.src }} <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe fa-2x"></i></a> {% endif %} {% unless forloop.last %} <br>{% endunless %}{% endfor %}  {% endif %}</td>
+        {% include contest-row.liquid contest="inmo" %}
       </tr>
+    {% endif %}
     {% endfor %}
   </tbody>
 </table>

@@ -1,0 +1,29 @@
+<td>
+  {% assign contest = include.contest %}
+  {% if item[contest].yr %}
+    {% for member in item[contest].qn %}
+      {% if member.qq %}
+        {{ member.src }}
+        <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-file-pdf fa-2x"></i>
+        </a>
+      {% endif %}
+      {% if member.sol %}
+        <a href="{{ member.sol }}" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-file-pdf fa-2x"></i>
+        </a>
+      {% endif %}
+      {% unless forloop.last %}<br>{% endunless %}
+    {% endfor %}
+
+    {% for member in item[contest].aops %}
+      {% if member.qq %}
+        {{ member.src }}
+        <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-globe fa-2x"></i>
+        </a>
+      {% endif %}
+      {% unless forloop.last %}<br>{% endunless %}
+    {% endfor %}
+  {% endif %}
+</td>

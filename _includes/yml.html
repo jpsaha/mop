@@ -143,7 +143,9 @@
                 {% else %}
                   {% if include.type == 'watru' %}
                     {%- capture myvar -%}{{ site.data.[include.com].[include.yr].[include.pr].watru }}{%- endcapture -%}
-                    {{ myvar | markdownify }}
+                      {%- details Click here for the spoiler! -%}
+                      {{ myvar | markdownify }}
+                      {%- enddetails -%}
                     {% if site.data.[include.com].[include.yr].[include.pr].img %}
                       <div class="row mt-3 text-center">
                       {% assign members = site.data[include.com][include.yr][include.pr].img %}
@@ -176,29 +178,34 @@
                               {% endif %}
                             {% endif %}
                           {% endif %}
-                          {% assign count = members | size %}
-                          {% assign col_width = 12 | divided_by: count %}
-                          {% if members.size > 0 %}
+                          {% assign watru_members = members | where: "ref", "watru" %}
+                          {% assign count = watru_members | size %}
+                          {% if watru_members.size > 0 %}
+                            {% assign col_width = 12 | divided_by: count %}
                             {% assign mycap = "Fig " | append: forloop.index | append: ": " | append: mycap %}
                             {% if count == 1 %}
-                                <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
-                                    <div style="width:70%;">
-                                        {% include figure.liquid 
-                                            loading="eager" 
-                                            path=mypath 
-                                            class="img-fluid rounded z-depth-1" 
-                                            width="100%" 
-                                            caption=mycap 
-                                            zoomable=member.zoomable 
-                                        %}
-                                    </div>
-                                </div>
+                              {% if member.ref == 'watru' %}
+                              <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
+                                  <div style="width:70%;">
+                                      {% include figure.liquid 
+                                          loading="eager" 
+                                          path=mypath 
+                                          class="img-fluid rounded z-depth-1" 
+                                          width="100%" 
+                                          caption=mycap 
+                                          zoomable=member.zoomable 
+                                      %}
+                                  </div>
+                              </div>
+                              {% endif %}
                             {% else %}
+                              {% if member.ref == 'watru' %}
                               <div class="col-md-{{ col_width }} mt-3 mt-md-0 d-flex justify-content-center">
                                 <div style="width:70%;">
                                   {% include figure.liquid loading="eager" path=mypath class="img-fluid rounded z-depth-1" width="100%" caption=mycap zoomable='member.zoomable' %}
                                 </div>
                               </div>
+                              {% endif %}
                             {% endif %}
                           {% endif %}
                         {% endfor %}
@@ -225,10 +232,12 @@
                           {% else %}
                             {% if include.type == 'soln' %}
                               {%- capture myvar -%}{{ site.data.[include.com].[include.yr].[include.pr].soln }}{%- endcapture -%}
+                              {%- details Click here for the spoiler! -%}
                               {{ myvar | markdownify }}
-                              {% if site.data.[include.com].[include.yr].[include.pr].soln.img %}
+                              {%- enddetails -%}
+                              {% if site.data.[include.com].[include.yr].[include.pr].img %}
                                 <div class="row mt-3 text-center">
-                                {% assign members = site.data[include.com][include.yr][include.pr].soln.img %}
+                                {% assign members = site.data[include.com][include.yr][include.pr].img %}
                                   {% for member in members %}
                                     {% if include.title contains 'IOQM' %}
                                       {% assign mypath = member.path | prepend: 'assets/img/ioqm/' %}
@@ -258,29 +267,34 @@
                                         {% endif %}
                                       {% endif %}
                                     {% endif %}
-                                    {% assign count = members | size %}
-                                    {% assign col_width = 12 | divided_by: count %}
-                                    {% if members.size > 0 %}
+                                    {% assign solution_members = members | where: "ref", "soln" %}
+                                    {% assign count = solution_members | size %}
+                                    {% if solution_members.size > 0 %}
+                                      {% assign col_width = 12 | divided_by: count %}
                                       {% assign mycap = "Fig " | append: forloop.index | append: ": " | append: mycap %}
                                       {% if count == 1 %}
-                                          <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
-                                              <div style="width:70%;">
-                                                  {% include figure.liquid 
-                                                      loading="eager" 
-                                                      path=mypath 
-                                                      class="img-fluid rounded z-depth-1" 
-                                                      width="100%" 
-                                                      caption=mycap 
-                                                      zoomable=member.zoomable 
-                                                  %}
-                                              </div>
-                                          </div>
+                                        {% if member.ref == 'soln' %}
+                                        <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
+                                            <div style="width:70%;">
+                                                {% include figure.liquid 
+                                                    loading="eager" 
+                                                    path=mypath 
+                                                    class="img-fluid rounded z-depth-1" 
+                                                    width="100%" 
+                                                    caption=mycap 
+                                                    zoomable=member.zoomable 
+                                                %}
+                                            </div>
+                                        </div>
+                                        {% endif %}
                                       {% else %}
+                                        {% if member.ref == 'soln' %}
                                         <div class="col-md-{{ col_width }} mt-3 mt-md-0 d-flex justify-content-center">
                                           <div style="width:70%;">
                                             {% include figure.liquid loading="eager" path=mypath class="img-fluid rounded z-depth-1" width="100%" caption=mycap zoomable='member.zoomable' %}
                                           </div>
                                         </div>
+                                        {% endif %}
                                       {% endif %}
                                     {% endif %}
                                   {% endfor %}

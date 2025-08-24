@@ -52,16 +52,12 @@ pretty_table: true
     {% for item in site.data.past %}
     {% if item.rmo.yr %}
       <tr>
-        <td>{{ item.yr }} </td>
-        <td>{% for member in item.rmo.qn %} {% if member.qq %}{{ member.src }} <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf fa-2x"></i></a> {% endif %} {% if member.sol %}<a href="{{ member.sol }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf fa-2x"></i></a>{% endif %}{% unless forloop.last %} <br>{% endunless %}{% endfor %}</td>
-        <td>  {% for member in item.rmo.aops %}{% if member.qq %} {{ member.src }} <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe fa-2x"></i></a> {% endif %} {% unless forloop.last %} <br>{% endunless %}{% endfor %}   </td>
-        <td>  {% if item.rmo.discussion %}<a href="{{ site.url }}{{ site.baseurl }}/assets/pdf/{{ tst | upcase }}/{{ item.rmo.discussion }}.pdf" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf fa-2x"></i></a>{% endif %}  {% if item.rmo.rk %}{%- capture rk -%}{{ item.rmo.rk }}{%- endcapture -%}{{ rk | markdownify }}{% endif %}  </td>
+        {% include contest-row.liquid contest="rmo" %}
       </tr>
     {% endif %}
     {% endfor %}
   </tbody>
 </table>
-
 
 <!-- Script to toggle column visibility -->
 <script>
@@ -81,6 +77,5 @@ pretty_table: true
     });
   });
 </script>
-
 
 {% endfor %}
