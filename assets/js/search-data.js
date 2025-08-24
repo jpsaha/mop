@@ -156,7 +156,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/mop/MOPSS/";
           },
-        },{id: "post-mopss-9th-august-2025",
+        },{id: "post-mopss-23rd-august-2025",
+        
+          title: "MOPSS, 23rd August 2025",
+        
+        description: "MOPSS Problems, Walkthroughs, Solutions from 23rd August 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mop/blog/2025/MOPSS25Aug23/";
+          
+        },
+      },{id: "post-mopss-9th-august-2025",
         
           title: "MOPSS, 9th August 2025",
         
