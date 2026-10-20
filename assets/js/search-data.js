@@ -376,7 +376,7 @@ ninja.data = [{
           title: '$$ a^3+b^3+c^3 - 3abc $$',
           description: "",
           section: "Alg",handler: () => {
-              window.location.href = "/mop/alg/a3b3c3-3abc/";
+              window.location.href = "/mop/alg/a3b3c33abc/";
             },},{id: "alg-arithmetic-progressions",
           title: 'Arithmetic progressions',
           description: "",
@@ -947,6 +947,11 @@ ninja.data = [{
           description: "MOPSS Problems, Walkthroughs, Solutions from 2nd May 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
           section: "Mopss",handler: () => {
               window.location.href = "/mop/mopss/26may02/";
+            },},{id: "mopss-mopss-17th-october-2026",
+          title: 'MOPSS, 17th October 2026',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 17th October 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/mop/mopss/26oct17/";
             },},{id: "nt-binomial-coefficients",
           title: 'Binomial coefficients',
           description: "",
